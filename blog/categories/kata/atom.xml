@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: kata | /trasteando/]]></title>
+  <link href="http://rojoangel.github.io/blog/categories/kata/atom.xml" rel="self"/>
+  <link href="http://rojoangel.github.io/"/>
+  <updated>2015-08-03T00:08:35+02:00</updated>
+  <id>http://rojoangel.github.io/</id>
+  <author>
+    <name><![CDATA[Angel Rojo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Binary Search Tree Kata PHP Solution]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/08/02/binary-search-tree-kata-php-solution/"/>
+    <updated>2015-08-02T22:52:17+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/08/02/binary-search-tree-kata-php-solution</id>
+    <content type="html"><![CDATA[<p>This is my php solution to the Binary Search Tree kata
+{% codeblock lang:php %}
+  {% github rojoangel/12moths-12katas 244867dbe6e0c4a11608435fdc5d242d674595c1 %}
+{% endcodeblock %}</p>
+
+<p>And this are the tests produced while doing TDD
+{% codeblock lang:php %}
+  {% github rojoangel/12moths-12katas 81a0479e7efe72e4be7d15d9797df1c94991c4e3 %}
+{% endcodeblock %}</p>
+]]></content>
+  </entry>
+  
+</feed>

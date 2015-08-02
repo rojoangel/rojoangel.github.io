@@ -1,136 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>/trasteando/</title>
-  <meta name="author" content="Angel Rojo">
-
-  
-  <meta name="description" content="This is my php solution to the Binary Search Tree kata 1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34 &hellip;">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://rojoangel.github.io/">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="/trasteando/" type="application/atom+xml">
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-
-  
-
-</head>
-
-<body>
-  <header role="banner"><hgroup>
-  <h1><a href="/">/trasteando/</a></h1>
-  
-    <h2>Playing around</h2>
-  
-</hgroup>
-
-</header>
-  <div id="navigation">
-    <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="https://www.google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:rojoangel.github.io" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
-
-</nav>
-  </div>
-  <div id="body"  >
-    <div id="main">
-      <div id="content">
-        <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
+  <title><![CDATA[/trasteando/]]></title>
+  <link href="http://rojoangel.github.io/atom.xml" rel="self"/>
+  <link href="http://rojoangel.github.io/"/>
+  <updated>2015-08-02T23:44:16+02:00</updated>
+  <id>http://rojoangel.github.io/</id>
+  <author>
+    <name><![CDATA[Angel Rojo]]></name>
     
-      <h1 class="entry-title"><a href="/blog/2015/08/02/binary-search-tree-kata-php-solution/">Binary Search Tree Kata PHP Solution</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
   
-
-
-<time datetime="2015-08-02T22:52:17+02:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>This is my php solution to the Binary Search Tree kata</p>
+  <entry>
+    <title type="html"><![CDATA[Binary Search Tree Kata PHP Solution]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/08/02/binary-search-tree-kata-php-solution/"/>
+    <updated>2015-08-02T22:52:17+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/08/02/binary-search-tree-kata-php-solution</id>
+    <content type="html"><![CDATA[<p>This is my php solution to the Binary Search Tree kata</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -871,143 +759,26 @@
 </span><span class='line'><span class="p">}</span>
 </span></code></pre></td></tr></table></div></figure>
 
-</div>
+]]></content>
+  </entry>
   
+  <entry>
+    <title type="html"><![CDATA[This is a test]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/03/20/this-is-a-test/"/>
+    <updated>2015-03-20T22:27:47+01:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/03/20/this-is-a-test</id>
+    <content type="html"><![CDATA[<p>Left-aligning pullquotes are good to alternate breaks in the text. Left-aligning pullquotes are good to alternate breaks in the text. Left-aligning pullquotes are good to alternate breaks in the text. Left-aligning pullquotes are good to alternate breaks in the text. Left-aligning pullquotes are good to alternate breaks in the text.Left-aligning pullquotes are good to alternate breaks in the text.</p>
+
+<!--more-->
+
+
+<p><img src="https://drive.google.com/uc?export=view&id=0B4gDdIUTVygXaHJ3SDNyZEtUVFU"></p>
+
+<p><span class='pullquote-left' data-pullquote='almost exactly like the default,'>
+Left-aligning pullquotes are good to alternate breaks in the text. Left-aligning pullquotes are good to alternate breaks in the text. Left-aligning pullquotes are good to alternate breaks in the text. They&rsquo;re
+almost exactly like the default, right pullquotes, but a little different.Left-aligning pullquotes are good to alternate breaks in the text. Left-aligning pullquotes are good to alternate breaks in the text. Left-aligning pullquotes are good to alternate breaks in the text. Left-aligning pullquotes are good to alternate breaks in the text. Left-aligning pullquotes are good to alternate breaks in the text. Left-aligning pullquotes are good to alternate breaks in the text.
+</span></p>
+]]></content>
+  </entry>
   
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/03/20/this-is-a-test/">This Is a Test</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-03-20T22:27:47+01:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Left-aligning pullquotes are good to alternate breaks in the text. Left-aligning pullquotes are good to alternate breaks in the text. Left-aligning pullquotes are good to alternate breaks in the text. Left-aligning pullquotes are good to alternate breaks in the text. Left-aligning pullquotes are good to alternate breaks in the text.Left-aligning pullquotes are good to alternate breaks in the text.</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2015/03/20/this-is-a-test/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2015/08/02/binary-search-tree-kata-php-solution/">Binary Search Tree Kata PHP Solution</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/03/20/this-is-a-test/">This is a test</a>
-      </li>
-    
-  </ul>
-</section>
-
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-  <a href="https://github.com/rojoangel">@rojoangel</a> on GitHub
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'rojoangel',
-            count: 0,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-
-
-
-  
-</aside>
-
-      </div>
-    </div>
-    <footer role="contentinfo"><p>
-  Copyright &copy; 2015 - Angel Rojo -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a>. Design by <a href="http://octopressthemes.com">Octopress Themes</a></span>
-</p>
-
-</footer>
-    
-
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-  </div>
-</body>
-</html>
+</feed>
