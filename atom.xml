@@ -4,7 +4,7 @@
   <title><![CDATA[/trasteando/]]></title>
   <link href="http://rojoangel.github.io/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-08-03T00:25:36+02:00</updated>
+  <updated>2015-08-30T21:54:04+02:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Program Like a Debater: Character, Commitment, Team Work, Hard Work]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/08/30/reading-program-like-a-debater-character/"/>
+    <updated>2015-08-30T21:29:00+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/08/30/reading-program-like-a-debater-character</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just read this post talking about habits of excellence and continuous improvement: <a href="https://blog.8thlight.com/rob-mulholand/2015/08/28/program-like-debater.html">Program Like a Debater: Character, Commitment, Team Work, Hard Work</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Binary Search Tree Kata PHP Solution]]></title>
@@ -152,7 +161,7 @@
 <span class='line-number'>130</span>
 <span class='line-number'>131</span>
 <span class='line-number'>132</span>
-</pre></td><td class='code'><pre><code class='php'><span class='line'>  <span class="o">&lt;?</span><span class="nx">php</span>
+</pre></td><td class='code'><pre><code class='php'><span class='line'><span class="o">&lt;?</span><span class="nx">php</span>
 </span><span class='line'>
 </span><span class='line'>
 </span><span class='line'><span class="k">namespace</span> <span class="nx">Kata</span><span class="p">;</span>
@@ -523,7 +532,7 @@
 <span class='line-number'>232</span>
 <span class='line-number'>233</span>
 <span class='line-number'>234</span>
-</pre></td><td class='code'><pre><code class='php'><span class='line'>  <span class="o">&lt;?</span><span class="nx">php</span>
+</pre></td><td class='code'><pre><code class='php'><span class='line'><span class="o">&lt;?</span><span class="nx">php</span>
 </span><span class='line'>
 </span><span class='line'>
 </span><span class='line'><span class="k">namespace</span> <span class="nx">Kata</span><span class="p">;</span>
