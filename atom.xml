@@ -4,7 +4,7 @@
   <title><![CDATA[/trasteando/]]></title>
   <link href="http://rojoangel.github.io/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-09-01T21:42:26+02:00</updated>
+  <updated>2015-09-02T00:27:05+02:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Bootstrapping an Agile Team [Part 1 – People]]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/09/02/bootstrapping-an-agile-team-part-1-people/"/>
+    <updated>2015-09-02T00:22:36+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/09/02/bootstrapping-an-agile-team-part-1-people</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Does My Bus Look Big in This?]]></title>
