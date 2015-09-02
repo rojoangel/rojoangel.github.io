@@ -4,7 +4,7 @@
   <title><![CDATA[Category: kata | /trasteando/]]></title>
   <link href="http://rojoangel.github.io/blog/categories/kata/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-09-03T01:15:46+02:00</updated>
+  <updated>2015-09-03T01:19:57+02:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -29,6 +29,9 @@
 <blockquote><p>Given two arrays a and b write a function comp(a, b) (compSame(a, b) in Clojure) that checks whether the two arrays have the &ldquo;same&rdquo; elements, with the same multiplicities. &ldquo;Same&rdquo; means, here, that the elements in b are the elements in a squared, regardless of the order.</p></blockquote>
 
 <p>The full description can be found at <a href="http://www.codewars.com/kata/are-they-the-same">www.codewars.com</a></p>
+
+<!--more-->
+
 
 <h4>The initial code</h4>
 
