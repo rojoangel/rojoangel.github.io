@@ -4,7 +4,7 @@
   <title><![CDATA[/trasteando/]]></title>
   <link href="http://rojoangel.github.io/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-09-02T00:29:25+02:00</updated>
+  <updated>2015-09-03T01:15:46+02:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -12,6 +12,434 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Are They The Same? Kata Java Solution]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/09/02/are-they-the-same-kata-java-solution/"/>
+    <updated>2015-09-02T22:47:19+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/09/02/are-they-the-same-kata-java-solution</id>
+    <content type="html"><![CDATA[<p>Today I was practicing with the <a href="http://www.codewars.com/kata/are-they-the-same">Are they the same?</a> kata from <a href="http://www.codewars.com">www.codewars.com</a></p>
+
+<p>Here&rsquo;s a summary of the steps I followed to solve it.</p>
+
+<h4>Description</h4>
+
+<p>The kata goal is</p>
+
+<blockquote><p>Given two arrays a and b write a function comp(a, b) (compSame(a, b) in Clojure) that checks whether the two arrays have the &ldquo;same&rdquo; elements, with the same multiplicities. &ldquo;Same&rdquo; means, here, that the elements in b are the elements in a squared, regardless of the order.</p></blockquote>
+
+<p>The full description can be found at <a href="http://www.codewars.com/kata/are-they-the-same">www.codewars.com</a></p>
+
+<h4>The initial code</h4>
+
+<p>The initial code has one class and a test.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">public</span> <span class="kd">class</span> <span class="nc">AreSame</span> <span class="o">{</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">boolean</span> <span class="nf">comp</span><span class="o">(</span><span class="kt">int</span><span class="o">[]</span> <span class="n">a</span><span class="o">,</span> <span class="kt">int</span><span class="o">[]</span> <span class="n">b</span><span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>    <span class="k">return</span> <span class="kc">null</span><span class="o">;</span>
+</span><span class='line'>  <span class="o">}</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kn">import</span> <span class="nn">static</span> <span class="n">org</span><span class="o">.</span><span class="na">junit</span><span class="o">.</span><span class="na">Assert</span><span class="o">.*;</span>
+</span><span class='line'><span class="kn">import</span> <span class="nn">org.junit.Test</span><span class="o">;</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="kd">public</span> <span class="kd">class</span> <span class="nc">AreSameTest</span> <span class="o">{</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nd">@Test</span>
+</span><span class='line'>  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">test1</span><span class="o">()</span> <span class="o">{</span>
+</span><span class='line'>      <span class="kt">int</span><span class="o">[]</span> <span class="n">a</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[]{</span><span class="mi">121</span><span class="o">,</span> <span class="mi">144</span><span class="o">,</span> <span class="mi">19</span><span class="o">,</span> <span class="mi">161</span><span class="o">,</span> <span class="mi">19</span><span class="o">,</span> <span class="mi">144</span><span class="o">,</span> <span class="mi">19</span><span class="o">,</span> <span class="mi">11</span><span class="o">};</span>
+</span><span class='line'>      <span class="kt">int</span><span class="o">[]</span> <span class="n">b</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[]{</span><span class="mi">121</span><span class="o">,</span> <span class="mi">14641</span><span class="o">,</span> <span class="mi">20736</span><span class="o">,</span> <span class="mi">361</span><span class="o">,</span> <span class="mi">25921</span><span class="o">,</span> <span class="mi">361</span><span class="o">,</span> <span class="mi">20736</span><span class="o">,</span> <span class="mi">361</span><span class="o">};</span>
+</span><span class='line'>      <span class="n">assertEquals</span><span class="o">(</span><span class="n">AreSame</span><span class="o">.</span><span class="na">comp</span><span class="o">(</span><span class="n">a</span><span class="o">,</span> <span class="n">b</span><span class="o">),</span> <span class="kc">true</span><span class="o">);</span>
+</span><span class='line'>  <span class="o">}</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The kata focuses on implementing the <code>AreSame</code> class so it passes the tests provided by the <code>AreSameTest</code> class.</p>
+
+<p>It also seems a good idea to enhance the tests in <code>AreSameTest</code> to further test our implementation.</p>
+
+<h4>Solution steps</h4>
+
+<h5>Iteration 1 - true use case</h5>
+
+<p>My goal for this first iteration was to make <code>test1</code> pass / green.</p>
+
+<p>The <code>comp</code> method will</p>
+
+<ul>
+<li>sort array <code>a</code></li>
+<li>sort array <code>b</code></li>
+<li>raise <code>a</code> elements to the second power</li>
+<li>compare the elements in <code>a</code> and <code>b</code></li>
+</ul>
+
+
+<p>This is the resulting code:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">public</span> <span class="kd">static</span> <span class="kt">boolean</span> <span class="nf">comp</span><span class="o">(</span><span class="kt">int</span><span class="o">[]</span> <span class="n">a</span><span class="o">,</span> <span class="kt">int</span><span class="o">[]</span> <span class="n">b</span><span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>    <span class="n">Arrays</span><span class="o">.</span><span class="na">sort</span><span class="o">(</span><span class="n">a</span><span class="o">);</span>
+</span><span class='line'>    <span class="n">Arrays</span><span class="o">.</span><span class="na">sort</span><span class="o">(</span><span class="n">b</span><span class="o">);</span>
+</span><span class='line'>    <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">a</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+</span><span class='line'>        <span class="k">if</span> <span class="o">(</span><span class="n">a</span><span class="o">[</span><span class="n">i</span><span class="o">]*</span><span class="n">a</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">!=</span> <span class="n">b</span><span class="o">[</span><span class="n">i</span><span class="o">])</span> <span class="o">{</span>
+</span><span class='line'>            <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+</span><span class='line'>        <span class="o">}</span>
+</span><span class='line'>    <span class="o">}</span>
+</span><span class='line'>    <span class="k">return</span> <span class="kc">true</span><span class="o">;</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This code has a couple of problems that will be dealt with in next iterations:</p>
+
+<ul>
+<li><code>Arrays.sort()</code> is modifying the input parameters, which can be considered as a code smell.</li>
+<li>The <code>for</code> loop used to compare both arrays adds a lot of code and is not expressive enough, I&rsquo;m sure there are better ways to achieve the same result</li>
+</ul>
+
+
+<h5>Iteration 2 - false use case</h5>
+
+<p>The tests provided are only covering the scenario where <code>comp</code> return <code>true</code>. Let&rsquo;s add a test for <code>comp</code> returning false.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="nd">@Test</span>
+</span><span class='line'><span class="kd">public</span> <span class="kt">void</span> <span class="nf">test2</span><span class="o">()</span> <span class="o">{</span>
+</span><span class='line'>    <span class="kt">int</span><span class="o">[]</span> <span class="n">a</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[]{</span><span class="mi">122</span><span class="o">,</span> <span class="mi">144</span><span class="o">,</span> <span class="mi">19</span><span class="o">,</span> <span class="mi">161</span><span class="o">,</span> <span class="mi">19</span><span class="o">,</span> <span class="mi">144</span><span class="o">,</span> <span class="mi">19</span><span class="o">,</span> <span class="mi">11</span><span class="o">};</span>
+</span><span class='line'>    <span class="kt">int</span><span class="o">[]</span> <span class="n">b</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[]{</span><span class="mi">121</span><span class="o">,</span> <span class="mi">14641</span><span class="o">,</span> <span class="mi">20736</span><span class="o">,</span> <span class="mi">361</span><span class="o">,</span> <span class="mi">25921</span><span class="o">,</span> <span class="mi">361</span><span class="o">,</span> <span class="mi">20736</span><span class="o">,</span> <span class="mi">361</span><span class="o">};</span>
+</span><span class='line'>    <span class="n">assertEquals</span><span class="o">(</span><span class="n">AreSame</span><span class="o">.</span><span class="na">comp</span><span class="o">(</span><span class="n">a</span><span class="o">,</span> <span class="n">b</span><span class="o">),</span> <span class="kc">false</span><span class="o">);</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The new test is also satisfied by the current <code>comp</code> implementation, so there&rsquo;s no need to modify the code at this stage.</p>
+
+<h4>Iteration 3 - null / empty use case</h4>
+
+<p>The kata description mentions that we have to deal with null and empty arrays:</p>
+
+<blockquote><p>If a or b are nil (or null or None), the problem doesn&rsquo;t make sense so return false.</p>
+
+<p>If a or b are empty the result is evident by itself.</p></blockquote>
+
+<p>Let&rsquo;s add two new tests to cover for these scenarios:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="nd">@Test</span>
+</span><span class='line'><span class="kd">public</span> <span class="kt">void</span> <span class="nf">testNull</span><span class="o">()</span> <span class="o">{</span>
+</span><span class='line'>    <span class="n">assertEquals</span><span class="o">(</span><span class="n">AreSame</span><span class="o">.</span><span class="na">comp</span><span class="o">(</span><span class="kc">null</span><span class="o">,</span> <span class="kc">null</span><span class="o">),</span> <span class="kc">false</span><span class="o">);</span>
+</span><span class='line'><span class="o">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="nd">@Test</span>
+</span><span class='line'><span class="kd">public</span> <span class="kt">void</span> <span class="nf">testEmpty</span><span class="o">()</span> <span class="o">{</span>
+</span><span class='line'>    <span class="kt">int</span><span class="o">[]</span> <span class="n">a</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[]{};</span>
+</span><span class='line'>    <span class="kt">int</span><span class="o">[]</span> <span class="n">b</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[]{};</span>
+</span><span class='line'>    <span class="n">assertEquals</span><span class="o">(</span><span class="n">AreSame</span><span class="o">.</span><span class="na">comp</span><span class="o">(</span><span class="n">a</span><span class="o">,</span> <span class="n">b</span><span class="o">),</span> <span class="kc">true</span><span class="o">);</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>When running the test suite, <code>testEmpty</code> is passing, but <code>testNull</code> is failing: <code>comp</code> needs to be modified to deal properly with null arrays an to bring the test suite back to green.</p>
+
+<p>A check for null arguments is added to the <code>comp</code> method to turn the tests back to pass / green.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="k">if</span> <span class="o">(</span><span class="n">a</span> <span class="o">==</span> <span class="kc">null</span> <span class="o">||</span> <span class="n">b</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span> <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>and the resulting <code>comp</code> method is as follows:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">public</span> <span class="kd">static</span> <span class="kt">boolean</span> <span class="nf">comp</span><span class="o">(</span><span class="kt">int</span><span class="o">[]</span> <span class="n">a</span><span class="o">,</span> <span class="kt">int</span><span class="o">[]</span> <span class="n">b</span><span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>    <span class="k">if</span> <span class="o">(</span><span class="n">a</span> <span class="o">==</span> <span class="kc">null</span> <span class="o">||</span> <span class="n">b</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span> <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="n">Arrays</span><span class="o">.</span><span class="na">sort</span><span class="o">(</span><span class="n">a</span><span class="o">);</span>
+</span><span class='line'>    <span class="n">Arrays</span><span class="o">.</span><span class="na">sort</span><span class="o">(</span><span class="n">b</span><span class="o">);</span>
+</span><span class='line'>    <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">a</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+</span><span class='line'>        <span class="k">if</span> <span class="o">(</span><span class="n">a</span><span class="o">[</span><span class="n">i</span><span class="o">]*</span><span class="n">a</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">!=</span> <span class="n">b</span><span class="o">[</span><span class="n">i</span><span class="o">])</span> <span class="o">{</span>
+</span><span class='line'>            <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+</span><span class='line'>        <span class="o">}</span>
+</span><span class='line'>    <span class="o">}</span>
+</span><span class='line'>    <span class="k">return</span> <span class="kc">true</span><span class="o">;</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h4>Iteration 4 - Different sizes use case</h4>
+
+<p>How will <code>comp</code> deal with arrays of different sizes? Let&rsquo;s add a couple of tests to check this scenarios:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="nd">@Test</span>
+</span><span class='line'><span class="kd">public</span> <span class="kt">void</span> <span class="nf">testBLonger</span><span class="o">()</span> <span class="o">{</span>
+</span><span class='line'>    <span class="kt">int</span><span class="o">[]</span> <span class="n">a</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[]{</span><span class="mi">121</span><span class="o">,</span> <span class="mi">144</span><span class="o">,</span> <span class="mi">19</span><span class="o">,</span> <span class="mi">161</span><span class="o">,</span> <span class="mi">19</span><span class="o">,</span> <span class="mi">144</span><span class="o">,</span> <span class="mi">19</span><span class="o">,</span> <span class="mi">11</span><span class="o">};</span>
+</span><span class='line'>    <span class="kt">int</span><span class="o">[]</span> <span class="n">b</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[]{</span><span class="mi">121</span><span class="o">,</span> <span class="mi">14641</span><span class="o">,</span> <span class="mi">20736</span><span class="o">,</span> <span class="mi">361</span><span class="o">,</span> <span class="mi">25921</span><span class="o">,</span> <span class="mi">361</span><span class="o">,</span> <span class="mi">20736</span><span class="o">,</span> <span class="mi">361</span><span class="o">,</span> <span class="mi">2073600</span><span class="o">};</span>
+</span><span class='line'>    <span class="n">assertEquals</span><span class="o">(</span><span class="n">AreSame</span><span class="o">.</span><span class="na">comp</span><span class="o">(</span><span class="n">a</span><span class="o">,</span> <span class="n">b</span><span class="o">),</span> <span class="kc">false</span><span class="o">);</span>
+</span><span class='line'><span class="o">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="nd">@Test</span>
+</span><span class='line'><span class="kd">public</span> <span class="kt">void</span> <span class="nf">testALonger</span><span class="o">()</span> <span class="o">{</span>
+</span><span class='line'>    <span class="kt">int</span><span class="o">[]</span> <span class="n">a</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[]{</span><span class="mi">121</span><span class="o">,</span> <span class="mi">144</span><span class="o">,</span> <span class="mi">19</span><span class="o">,</span> <span class="mi">161</span><span class="o">,</span> <span class="mi">19</span><span class="o">,</span> <span class="mi">144</span><span class="o">,</span> <span class="mi">19</span><span class="o">,</span> <span class="mi">11</span><span class="o">,</span> <span class="mi">14400</span><span class="o">};</span>
+</span><span class='line'>    <span class="kt">int</span><span class="o">[]</span> <span class="n">b</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[]{</span><span class="mi">121</span><span class="o">,</span> <span class="mi">14641</span><span class="o">,</span> <span class="mi">20736</span><span class="o">,</span> <span class="mi">361</span><span class="o">,</span> <span class="mi">25921</span><span class="o">,</span> <span class="mi">361</span><span class="o">,</span> <span class="mi">20736</span><span class="o">,</span> <span class="mi">361</span><span class="o">};</span>
+</span><span class='line'>    <span class="n">assertEquals</span><span class="o">(</span><span class="n">AreSame</span><span class="o">.</span><span class="na">comp</span><span class="o">(</span><span class="n">a</span><span class="o">,</span> <span class="n">b</span><span class="o">),</span> <span class="kc">false</span><span class="o">);</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Just by adding a couple of big numbers to the end of <code>a</code> and <code>b</code> we are making our code fail.</p>
+
+<p>In order to bring the tests back to pass / green a guard to check the size of the arrays can be added:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="k">if</span> <span class="o">(</span><span class="n">a</span><span class="o">.</span><span class="na">length</span> <span class="o">!=</span> <span class="n">b</span><span class="o">.</span><span class="na">length</span><span class="o">)</span> <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>and the resulting <code>comp</code> method is as follows:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">public</span> <span class="kd">static</span> <span class="kt">boolean</span> <span class="nf">comp</span><span class="o">(</span><span class="kt">int</span><span class="o">[]</span> <span class="n">a</span><span class="o">,</span> <span class="kt">int</span><span class="o">[]</span> <span class="n">b</span><span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="k">if</span> <span class="o">(</span><span class="n">a</span> <span class="o">==</span> <span class="kc">null</span> <span class="o">||</span> <span class="n">b</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span> <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+</span><span class='line'>    <span class="k">if</span> <span class="o">(</span><span class="n">a</span><span class="o">.</span><span class="na">length</span> <span class="o">!=</span> <span class="n">b</span><span class="o">.</span><span class="na">length</span><span class="o">)</span> <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="n">Arrays</span><span class="o">.</span><span class="na">sort</span><span class="o">(</span><span class="n">a</span><span class="o">);</span>
+</span><span class='line'>    <span class="n">Arrays</span><span class="o">.</span><span class="na">sort</span><span class="o">(</span><span class="n">b</span><span class="o">);</span>
+</span><span class='line'>    <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">a</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+</span><span class='line'>        <span class="k">if</span> <span class="o">(</span><span class="n">a</span><span class="o">[</span><span class="n">i</span><span class="o">]*</span><span class="n">a</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">!=</span> <span class="n">b</span><span class="o">[</span><span class="n">i</span><span class="o">])</span> <span class="o">{</span>
+</span><span class='line'>            <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+</span><span class='line'>        <span class="o">}</span>
+</span><span class='line'>    <span class="o">}</span>
+</span><span class='line'>    <span class="k">return</span> <span class="kc">true</span><span class="o">;</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h4>Iteration 5 - Negative numbers use case</h4>
+
+<p>There&rsquo;s a scenario that hasn&rsquo;t been tested yet: what if &#8220;`a&#8220;&#8220;contains negative numbers?</p>
+
+<p>A new test is added to cover for this scenario:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="nd">@Test</span>
+</span><span class='line'><span class="kd">public</span> <span class="kt">void</span> <span class="nf">testNegativeNumbers</span><span class="o">()</span> <span class="o">{</span>
+</span><span class='line'>    <span class="kt">int</span><span class="o">[]</span> <span class="n">a</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[]{</span><span class="mi">121</span><span class="o">,</span> <span class="o">-</span><span class="mi">144</span><span class="o">,</span> <span class="mi">19</span><span class="o">,</span> <span class="mi">161</span><span class="o">,</span> <span class="mi">19</span><span class="o">,</span> <span class="mi">144</span><span class="o">,</span> <span class="mi">19</span><span class="o">,</span> <span class="mi">11</span><span class="o">};</span>
+</span><span class='line'>    <span class="kt">int</span><span class="o">[]</span> <span class="n">b</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[]{</span><span class="mi">121</span><span class="o">,</span> <span class="mi">14641</span><span class="o">,</span> <span class="mi">20736</span><span class="o">,</span> <span class="mi">361</span><span class="o">,</span> <span class="mi">25921</span><span class="o">,</span> <span class="mi">361</span><span class="o">,</span> <span class="mi">20736</span><span class="o">,</span> <span class="mi">361</span><span class="o">};</span>
+</span><span class='line'>    <span class="n">assertEquals</span><span class="o">(</span><span class="n">AreSame</span><span class="o">.</span><span class="na">comp</span><span class="o">(</span><span class="n">a</span><span class="o">,</span> <span class="n">b</span><span class="o">),</span> <span class="kc">true</span><span class="o">);</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>When the tests are run we see this one failing miserably: the code needs to be changed to bring the test suite back to green.</p>
+
+<p>The error is caused by the fact that <code>comp</code> sorts <code>a</code> and then raises its values to the second power, which doesn&rsquo;t work well for negative numbers.</p>
+
+<p>At a first stage I considered working with absolute values from the <code>a</code> array. In order to apply <code>Math.abs()</code> to the values in the <code>a</code> array it seemed inevitable to add a new <code>for</code> loop, but I felt lazy so I after googling a bit I found that <code>lambdas</code> may come in to rescue.</p>
+
+<p>The following code snippet returns a new array with the <code>abs</code> function applied to all its elements:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="n">Arrays</span><span class="o">.</span><span class="na">stream</span><span class="o">(</span><span class="n">a</span><span class="o">).</span><span class="na">map</span><span class="o">(</span><span class="n">x</span> <span class="o">-&gt;</span> <span class="n">Math</span><span class="o">.</span><span class="na">abs</span><span class="o">(</span><span class="n">x</span><span class="o">)).</span><span class="na">toArray</span><span class="o">();</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Arrays can be also sorted by calling:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="n">Arrays</span><span class="o">.</span><span class="na">stream</span><span class="o">(</span><span class="n">b</span><span class="o">).</span><span class="na">sorted</span><span class="o">().</span><span class="na">toArray</span><span class="o">();</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Here&rsquo;s the resulting <code>comp</code> function after making use of <code>Arrays</code>, <code>IntStreams</code> and <code>lambdas</code>:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kn">import</span> <span class="nn">java.util.Arrays</span><span class="o">;</span>
+</span><span class='line'>
+</span><span class='line'><span class="kd">public</span> <span class="kd">class</span> <span class="nc">AreSame</span> <span class="o">{</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">boolean</span> <span class="nf">comp</span><span class="o">(</span><span class="kt">int</span><span class="o">[]</span> <span class="n">a</span><span class="o">,</span> <span class="kt">int</span><span class="o">[]</span> <span class="n">b</span><span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>
+</span><span class='line'>        <span class="k">if</span> <span class="o">(</span><span class="n">a</span> <span class="o">==</span> <span class="kc">null</span> <span class="o">||</span> <span class="n">b</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span> <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+</span><span class='line'>        <span class="k">if</span> <span class="o">(</span><span class="n">a</span><span class="o">.</span><span class="na">length</span> <span class="o">!=</span> <span class="n">b</span><span class="o">.</span><span class="na">length</span><span class="o">)</span> <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+</span><span class='line'>
+</span><span class='line'>        <span class="kt">int</span><span class="o">[]</span> <span class="n">sortedA</span> <span class="o">=</span> <span class="n">Arrays</span><span class="o">.</span><span class="na">stream</span><span class="o">(</span><span class="n">a</span><span class="o">).</span><span class="na">map</span><span class="o">(</span><span class="nl">Math:</span><span class="o">:</span><span class="n">abs</span><span class="o">).</span><span class="na">sorted</span><span class="o">().</span><span class="na">toArray</span><span class="o">();</span>
+</span><span class='line'>        <span class="kt">int</span><span class="o">[]</span> <span class="n">sortedB</span> <span class="o">=</span> <span class="n">Arrays</span><span class="o">.</span><span class="na">stream</span><span class="o">(</span><span class="n">b</span><span class="o">).</span><span class="na">sorted</span><span class="o">().</span><span class="na">toArray</span><span class="o">();</span>
+</span><span class='line'>        <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">a</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+</span><span class='line'>            <span class="k">if</span> <span class="o">(</span><span class="n">sortedA</span><span class="o">[</span><span class="n">i</span><span class="o">]*</span><span class="n">sortedA</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">!=</span> <span class="n">sortedB</span><span class="o">[</span><span class="n">i</span><span class="o">])</span> <span class="o">{</span>
+</span><span class='line'>                <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+</span><span class='line'>            <span class="o">}</span>
+</span><span class='line'>        <span class="o">}</span>
+</span><span class='line'>        <span class="k">return</span> <span class="kc">true</span><span class="o">;</span>
+</span><span class='line'>    <span class="o">}</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>And that brought the tests back to pass / green. Now it&rsquo;s time for some refactoring!</p>
+
+<h4>Iteration 5 - Refactoring</h4>
+
+<p>By using <code>IStreams</code> the original arrays passed in to the <code>comp</code> method remain untouched so we have already dealt with one of the concerns raised in our first iteration.</p>
+
+<p>Let&rsquo;s see how the <code>comp</code> method can be refactored, and if we can get rid of the <code>for</code> loop in it used for array comparison.</p>
+
+<p>Now that the <code>comp</code> method uses <code>lambdas</code> to apply a function to all the elements of an array, why not use <code>lambdas</code> to square the elements of <code>a</code>? By doing so <code>Arrays.equals</code> could be used to compare the resulting array with <code>b</code> and save our code for all the overhead in the <code>for</code> loop used for comparison.</p>
+
+<p>The following code snippet applies <code>abs</code>, squares and sorts the elements in the <code>a</code> array:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="n">Arrays</span><span class="o">.</span><span class="na">stream</span><span class="o">(</span><span class="n">a</span><span class="o">).</span><span class="na">map</span><span class="o">(</span><span class="n">x</span> <span class="o">-&gt;</span> <span class="n">Math</span><span class="o">.</span><span class="na">abs</span><span class="o">(</span><span class="n">x</span><span class="o">)).</span><span class="na">map</span><span class="o">(</span><span class="n">x</span> <span class="o">-&gt;</span> <span class="n">x</span><span class="o">*</span><span class="n">x</span><span class="o">).</span><span class="na">sorted</span><span class="o">().</span><span class="na">toArray</span><span class="o">();</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Wait a minute! If we raise to the second power, <code>abs</code> is redundant, so we can get rid of it:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="n">Arrays</span><span class="o">.</span><span class="na">stream</span><span class="o">(</span><span class="n">a</span><span class="o">).</span><span class="na">map</span><span class="o">(</span><span class="n">x</span> <span class="o">-&gt;</span> <span class="n">x</span><span class="o">*</span><span class="n">x</span><span class="o">).</span><span class="na">sorted</span><span class="o">().</span><span class="na">toArray</span><span class="o">();</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>And putting it all together here is the <code>comp</code> method final version:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">public</span> <span class="kd">static</span> <span class="kt">boolean</span> <span class="nf">comp</span><span class="o">(</span><span class="kt">int</span><span class="o">[]</span> <span class="n">a</span><span class="o">,</span> <span class="kt">int</span><span class="o">[]</span> <span class="n">b</span><span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="k">if</span> <span class="o">(</span><span class="n">a</span> <span class="o">==</span> <span class="kc">null</span> <span class="o">||</span> <span class="n">b</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span> <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+</span><span class='line'>    <span class="k">if</span> <span class="o">(</span><span class="n">a</span><span class="o">.</span><span class="na">length</span> <span class="o">!=</span> <span class="n">b</span><span class="o">.</span><span class="na">length</span><span class="o">)</span> <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="kt">int</span><span class="o">[]</span> <span class="n">sortedA</span> <span class="o">=</span> <span class="n">Arrays</span><span class="o">.</span><span class="na">stream</span><span class="o">(</span><span class="n">a</span><span class="o">).</span><span class="na">map</span><span class="o">(</span><span class="n">x</span> <span class="o">-&gt;</span> <span class="n">x</span><span class="o">*</span><span class="n">x</span><span class="o">).</span><span class="na">sorted</span><span class="o">().</span><span class="na">toArray</span><span class="o">();</span>
+</span><span class='line'>    <span class="kt">int</span><span class="o">[]</span> <span class="n">sortedB</span> <span class="o">=</span> <span class="n">Arrays</span><span class="o">.</span><span class="na">stream</span><span class="o">(</span><span class="n">b</span><span class="o">).</span><span class="na">sorted</span><span class="o">().</span><span class="na">toArray</span><span class="o">();</span>
+</span><span class='line'>    <span class="k">return</span> <span class="n">Arrays</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">sortedA</span><span class="o">,</span> <span class="n">sortedB</span><span class="o">);</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Here are the final versions of the classes of this kata:</p>
+
+<ul>
+<li><a href="https://github.com/rojoangel/codewars/blob/master/java/are-they-the-same/src/AreSame.java">AreSame.java</a></li>
+<li><a href="https://github.com/rojoangel/codewars/blob/master/java/are-they-the-same/tests/AreSameTest.java">AreSameTest.java</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bootstrapping an Agile Team [Part 1 – People]]]></title>
