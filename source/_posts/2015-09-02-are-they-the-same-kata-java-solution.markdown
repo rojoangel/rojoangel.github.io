@@ -15,7 +15,7 @@ The kata goal is
 > Given two arrays a and b write a function comp(a, b) (compSame(a, b) in Clojure) that checks whether the two arrays have the "same" elements, with the same multiplicities. "Same" means, here, that the elements in b are the elements in a squared, regardless of the order.
 
 The full description can be found at [www.codewars.com](http://www.codewars.com/kata/are-they-the-same)
-
+<!--more-->
 #### The initial code
 
 The initial code has one class and a test.
