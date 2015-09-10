@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: 
+Disallow:
 
-Sitemap: http://rojoangel.github.io/sitemap.xml 
+Sitemap: http://rojoangel.github.io/sitemap.xml
