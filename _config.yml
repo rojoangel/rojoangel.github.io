@@ -74,6 +74,8 @@ github_skip_forks: true
 twitter_user: rojo_angel
 twitter_tweet_button: true
 
+# LinkedIn
+linkedin_user: angelrojo
 # Google +1
 google_plus_one: false
 google_plus_one_size: medium
