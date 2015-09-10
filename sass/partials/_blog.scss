@@ -1,21 +1,22 @@
 article {
-  padding-top: 2em;
-  a { @extend .force-wrap; }
-  margin-bottom: 1em;
-  background: $main-bg;
-  border-top: 1px solid $sidebar-border;
-  border-left: 1px solid $sidebar-border;
-  border-bottom: 1px solid $sidebar-border;
+  padding-top: 2.3em;
+  a { @extend .force-wrap;
+    &, &:visited, &:active, &:hover { text-decoration: none; }
+  }
   header {
     position: relative;
     padding-top: 2em;
     padding-bottom: 1em;
+    padding-left: 0;
+    padding-right: 0;
     margin-bottom: 1em;
     background: $img-border bottom left repeat-x;
     h1 {
       margin: 0;
+      font-weight: 400;
       a { text-decoration: none;
-        &:hover { text-decoration: underline; } }
+        @include link-colors($text-color, $visited: $text-color);
+        }
     }
     p {
       font-size: .9em;
@@ -88,19 +89,12 @@ article {
 
 }
 article + article {
-    .blog-index & {
-	background: $img-border top left repeat-x;
-    }
+  .blog-index & {
+    background: $img-border top left repeat-x;
+  }
 }
 #content .blog-index {
   padding: { top: 0; bottom: 0; }
-  article {
-      padding-top: 2em;
-      background: $main-bg;
-      border-top: 1px solid $sidebar-border;
-      border-left: 1px solid $sidebar-border;
-      border-bottom: 1px solid $sidebar-border;
-  }
   article header { background: none; padding-bottom: 0; }
   article h1 {
     font-size: 2.2em;
@@ -137,8 +131,12 @@ article + article {
   text-align: center;
   font-size: .95em;
   position: relative;
-  background: $img-border top left repeat-x;
+  background: none repeat scroll 0 0 transparent;
+  margin-top: 4em;
+  margin-bottom: 0;
   padding: {top: 1.5em; bottom: 1.5em;}
+  border-top: dotted 1px #D1D1D1;
+  border-bottom: dotted 1px #D1D1D1;
   a {
     text-decoration: none;
     color: $text-color-light;
@@ -149,8 +147,4 @@ article + article {
       &:before, &:after { content: '\2014'; padding: 0 .3em; }
     }
   }
-}
-
-#content > div {
-  padding: 0;
 }
