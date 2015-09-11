@@ -1,4 +1,5 @@
 ---
+collection: readings
 layout: post
 title: "Does My Bus Look Big in This?"
 date: 2015-09-01 00:51:36 +0200
