@@ -7,6 +7,7 @@ publish: false
 categories: [kata, php]
 ---
 This is my php solution to the Binary Search Tree kata
+<!--more-->
 {% codeblock lang:php %}
 
 <?php
