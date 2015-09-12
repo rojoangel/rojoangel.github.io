@@ -9,14 +9,14 @@ Today I was practicing with the [Are they the same?](http://www.codewars.com/kat
 
 Here's a summary of the steps I followed to solve it.
 
-#### Description
+## Description
 The kata goal is
 
 > Given two arrays a and b write a function comp(a, b) (compSame(a, b) in Clojure) that checks whether the two arrays have the "same" elements, with the same multiplicities. "Same" means, here, that the elements in b are the elements in a squared, regardless of the order.
 
 The full description can be found at [www.codewars.com](http://www.codewars.com/kata/are-they-the-same)
 <!--more-->
-#### The initial code
+## The initial code
 
 The initial code has one class and a test.
 
@@ -47,9 +47,9 @@ The kata focuses on implementing the ```AreSame``` class so it passes the tests 
 
 It also seems a good idea to enhance the tests in ```AreSameTest``` to further test our implementation.
 
-#### Solution steps
+## Solution steps
 
-##### Iteration 1 - true use case
+### Iteration 1 - true use case
 My goal for this first iteration was to make ```test1``` pass / green.
 
 The ```comp``` method will
@@ -78,7 +78,7 @@ This code has a couple of problems that will be dealt with in next iterations:
 - ```Arrays.sort()``` is modifying the input parameters, which can be considered as a code smell.
 - The ```for``` loop used to compare both arrays adds a lot of code and is not expressive enough, I'm sure there are better ways to achieve the same result
 
-##### Iteration 2 - false use case
+### Iteration 2 - false use case
 The tests provided are only covering the scenario where ```comp``` return ```true```. Let's add a test for ```comp``` returning false.
 {% codeblock lang:java %}
 @Test
@@ -90,7 +90,7 @@ public void test2() {
 {% endcodeblock %}
 The new test is also satisfied by the current ```comp``` implementation, so there's no need to modify the code at this stage.
 
-#### Iteration 3 - null / empty use case
+### Iteration 3 - null / empty use case
 The kata description mentions that we have to deal with null and empty arrays:
 > If a or b are nil (or null or None), the problem doesn't make sense so return false.
 >
@@ -132,7 +132,7 @@ public static boolean comp(int[] a, int[] b) {
     return true;
 }
 {% endcodeblock %}
-#### Iteration 4 - Different sizes use case
+### Iteration 4 - Different sizes use case
 How will ```comp``` deal with arrays of different sizes? Let's add a couple of tests to check this scenarios:
 {% codeblock lang:java %}
 @Test
@@ -172,8 +172,8 @@ public static boolean comp(int[] a, int[] b) {
     return true;
 }
 {% endcodeblock %}
-#### Iteration 5 - Negative numbers use case
-There's a scenario that hasn't been tested yet: what if ```a````contains negative numbers?
+### Iteration 5 - Negative numbers use case
+There's a scenario that hasn't been tested yet: what if ```a``` contains negative numbers?
 
 A new test is added to cover for this scenario:
 {% codeblock lang:java %}
@@ -222,7 +222,7 @@ public class AreSame {
 {% endcodeblock %}
 And that brought the tests back to pass / green. Now it's time for some refactoring!
 
-#### Iteration 5 - Refactoring
+### Iteration 5 - Refactoring
 By using ```IStreams``` the original arrays passed in to the ```comp``` method remain untouched so we have already dealt with one of the concerns raised in our first iteration.
 
 Let's see how the ```comp``` method can be refactored, and if we can get rid of the ```for``` loop in it used for array comparison.
