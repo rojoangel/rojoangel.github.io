@@ -108,3 +108,4 @@ collections:
   readings:
     output: true
     permalink: /readings/:path/
+    title: Readings
