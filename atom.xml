@@ -4,7 +4,7 @@
   <title><![CDATA[/trasteando/]]></title>
   <link href="http://rojoangel.github.io/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-09-12T03:11:25+02:00</updated>
+  <updated>2015-09-12T03:22:05+02:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -22,7 +22,7 @@
 
 <p>Here&rsquo;s a summary of the steps I followed to solve it.</p>
 
-<h4>Description</h4>
+<h2>Description</h2>
 
 <p>The kata goal is</p>
 
@@ -33,7 +33,7 @@
 <!--more-->
 
 
-<h4>The initial code</h4>
+<h2>The initial code</h2>
 
 <p>The initial code has one class and a test.</p>
 
@@ -85,9 +85,9 @@
 
 <p>It also seems a good idea to enhance the tests in <code>AreSameTest</code> to further test our implementation.</p>
 
-<h4>Solution steps</h4>
+<h2>Solution steps</h2>
 
-<h5>Iteration 1 - true use case</h5>
+<h3>Iteration 1 - true use case</h3>
 
 <p>My goal for this first iteration was to make <code>test1</code> pass / green.</p>
 
@@ -134,7 +134,7 @@
 </ul>
 
 
-<h5>Iteration 2 - false use case</h5>
+<h3>Iteration 2 - false use case</h3>
 
 <p>The tests provided are only covering the scenario where <code>comp</code> return <code>true</code>. Let&rsquo;s add a test for <code>comp</code> returning false.</p>
 
@@ -155,7 +155,7 @@
 
 <p>The new test is also satisfied by the current <code>comp</code> implementation, so there&rsquo;s no need to modify the code at this stage.</p>
 
-<h4>Iteration 3 - null / empty use case</h4>
+<h3>Iteration 3 - null / empty use case</h3>
 
 <p>The kata description mentions that we have to deal with null and empty arrays:</p>
 
@@ -228,7 +228,7 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<h4>Iteration 4 - Different sizes use case</h4>
+<h3>Iteration 4 - Different sizes use case</h3>
 
 <p>How will <code>comp</code> deal with arrays of different sizes? Let&rsquo;s add a couple of tests to check this scenarios:</p>
 
@@ -303,9 +303,9 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<h4>Iteration 5 - Negative numbers use case</h4>
+<h3>Iteration 5 - Negative numbers use case</h3>
 
-<p>There&rsquo;s a scenario that hasn&rsquo;t been tested yet: what if &#8220;`a&#8220;&#8220;contains negative numbers?</p>
+<p>There&rsquo;s a scenario that hasn&rsquo;t been tested yet: what if <code>a</code> contains negative numbers?</p>
 
 <p>A new test is added to cover for this scenario:</p>
 
@@ -389,7 +389,7 @@
 
 <p>And that brought the tests back to pass / green. Now it&rsquo;s time for some refactoring!</p>
 
-<h4>Iteration 5 - Refactoring</h4>
+<h3>Iteration 5 - Refactoring</h3>
 
 <p>By using <code>IStreams</code> the original arrays passed in to the <code>comp</code> method remain untouched so we have already dealt with one of the concerns raised in our first iteration.</p>
 
