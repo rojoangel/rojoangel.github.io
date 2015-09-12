@@ -4,7 +4,7 @@
   <title><![CDATA[/trasteando/]]></title>
   <link href="http://rojoangel.github.io/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-09-12T02:27:14+02:00</updated>
+  <updated>2015-09-12T02:37:34+02:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -450,6 +450,9 @@
     <updated>2015-08-02T22:52:17+02:00</updated>
     <id>http://rojoangel.github.io/blog/2015/08/02/binary-search-tree-kata-php-solution</id>
     <content type="html"><![CDATA[<p>This is my php solution to the Binary Search Tree kata</p>
+
+<!--more-->
+
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
