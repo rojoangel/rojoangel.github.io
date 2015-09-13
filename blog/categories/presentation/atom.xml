@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Presentation | /trasteando/]]></title>
+  <link href="http://rojoangel.github.io/blog/categories/presentation/atom.xml" rel="self"/>
+  <link href="http://rojoangel.github.io/"/>
+  <updated>2015-09-13T13:52:24+02:00</updated>
+  <id>http://rojoangel.github.io/</id>
+  <author>
+    <name><![CDATA[Angel Rojo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Does My Bus Look Big in This?]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/09/01/does-my-bus-look-big-in-this/"/>
+    <updated>2015-09-01T00:51:36+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/09/01/does-my-bus-look-big-in-this</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just watched this presentation by Martin Fowler and Jim Webber about enterprise integration architectures: <a href="http://www.infoq.com/presentations/soa-without-esb">Does My Bus Look Big in This?</a></p>
+]]></content>
+  </entry>
+  
+</feed>

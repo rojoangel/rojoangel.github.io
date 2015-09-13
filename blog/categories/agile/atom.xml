@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Agile | /trasteando/]]></title>
+  <link href="http://rojoangel.github.io/blog/categories/agile/atom.xml" rel="self"/>
+  <link href="http://rojoangel.github.io/"/>
+  <updated>2015-09-13T13:52:24+02:00</updated>
+  <id>http://rojoangel.github.io/</id>
+  <author>
+    <name><![CDATA[Angel Rojo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Bootstrapping an Agile Team [Part 1 – People]]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/09/02/bootstrapping-an-agile-team-part-1-people/"/>
+    <updated>2015-09-02T00:22:36+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/09/02/bootstrapping-an-agile-team-part-1-people</id>
+    <content type="html"><![CDATA[<p>I’ve just read this post talking about some facilitations to enable team members to get to know them better: <a href="http://brendanmarsh.com/agile/bootstrapping-an-agile-team-part-1-people/">Bootstrapping an Agile Team [Part 1 – People]</a></p>
+
+<p>Looking forward to read parts 2 &amp; 3.</p>
+]]></content>
+  </entry>
+  
+</feed>

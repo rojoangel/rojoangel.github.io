@@ -4,7 +4,7 @@
   <title><![CDATA[/trasteando/]]></title>
   <link href="http://rojoangel.github.io/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-09-13T11:46:25+02:00</updated>
+  <updated>2015-09-13T13:52:24+02:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[What Not to Do in a TDD Pair Programming Interview]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/09/13/what-not-to-do-in-a-tdd-pair-programming-interview/"/>
+    <updated>2015-09-13T11:35:04+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/09/13/what-not-to-do-in-a-tdd-pair-programming-interview</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just read this post about TDD best practices:  <a href="http://codemanship.co.uk/parlezuml/blog/?postid=1324">What Not To Do In a TDD Pair Programming Interview - Software People Inspiring</a></p>
+
+<p>Although initially focused on pair programming interviews, the recommendations also apply to your day-to-day TDD flow.</p>
+
+<p>Here&rsquo;s summary of DONT&rsquo;s:</p>
+
+<ul>
+<li>start by writing implementation code</li>
+<li>introduce speculative generality (create code we don&rsquo;t need to pass the tests)</li>
+<li>write weak or meaningless tests</li>
+<li>write redundant tests</li>
+<li>not running the tests</li>
+<li>not refactoring when it&rsquo;s obviously needed</li>
+<li>hack away at the code when &lsquo;refactoring&rsquo;</li>
+<li>write one test that asks all the questions</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Are They the Same? Kata Java Solution]]></title>
@@ -441,6 +466,35 @@
 <li><a href="https://github.com/rojoangel/codewars/blob/master/java/are-they-the-same/tests/AreSameTest.java">AreSameTest.java</a></li>
 </ul>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bootstrapping an Agile Team [Part 1 – People]]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/09/02/bootstrapping-an-agile-team-part-1-people/"/>
+    <updated>2015-09-02T00:22:36+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/09/02/bootstrapping-an-agile-team-part-1-people</id>
+    <content type="html"><![CDATA[<p>I’ve just read this post talking about some facilitations to enable team members to get to know them better: <a href="http://brendanmarsh.com/agile/bootstrapping-an-agile-team-part-1-people/">Bootstrapping an Agile Team [Part 1 – People]</a></p>
+
+<p>Looking forward to read parts 2 &amp; 3.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Does My Bus Look Big in This?]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/09/01/does-my-bus-look-big-in-this/"/>
+    <updated>2015-09-01T00:51:36+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/09/01/does-my-bus-look-big-in-this</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just watched this presentation by Martin Fowler and Jim Webber about enterprise integration architectures: <a href="http://www.infoq.com/presentations/soa-without-esb">Does My Bus Look Big in This?</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Program Like a Debater: Character, Commitment, Team Work, Hard Work]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/08/30/reading-program-like-a-debater-character/"/>
+    <updated>2015-08-30T21:29:00+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/08/30/reading-program-like-a-debater-character</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just read this post talking about habits of excellence and continuous improvement: <a href="https://blog.8thlight.com/rob-mulholand/2015/08/28/program-like-debater.html">Program Like a Debater: Character, Commitment, Team Work, Hard Work</a></p>
 ]]></content>
   </entry>
   
