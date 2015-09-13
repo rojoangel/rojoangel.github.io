@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Tdd | /trasteando/]]></title>
-  <link href="http://rojoangel.github.io/blog/categories/tdd/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Best-practices | /trasteando/]]></title>
+  <link href="http://rojoangel.github.io/blog/categories/best-practices/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
   <updated>2015-09-13T19:13:02+02:00</updated>
   <id>http://rojoangel.github.io/</id>
@@ -27,31 +27,6 @@
 <p>Interestingly the tests used in the example are based on <a href="https://github.com/npryce/python-factcheck">factcheck</a></p>
 
 <blockquote><p>A simple but extensible implementation of QuickCheck for Python 2.7 and Python 3 that works well with Pytest.</p></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[What Not to Do in a TDD Pair Programming Interview]]></title>
-    <link href="http://rojoangel.github.io/blog/2015/09/13/what-not-to-do-in-a-tdd-pair-programming-interview/"/>
-    <updated>2015-09-13T11:35:04+02:00</updated>
-    <id>http://rojoangel.github.io/blog/2015/09/13/what-not-to-do-in-a-tdd-pair-programming-interview</id>
-    <content type="html"><![CDATA[<p>I&rsquo;ve just read this post about TDD best practices:  <a href="http://codemanship.co.uk/parlezuml/blog/?postid=1324">What Not To Do In a TDD Pair Programming Interview - Software People Inspiring</a></p>
-
-<p>Although initially focused on pair programming interviews, the recommendations also apply to your day-to-day TDD flow.</p>
-
-<p>Here&rsquo;s summary of DONT&rsquo;s:</p>
-
-<ul>
-<li>start by writing implementation code</li>
-<li>introduce speculative generality (create code we don&rsquo;t need to pass the tests)</li>
-<li>write weak or meaningless tests</li>
-<li>write redundant tests</li>
-<li>not running the tests</li>
-<li>not refactoring when it&rsquo;s obviously needed</li>
-<li>hack away at the code when &lsquo;refactoring&rsquo;</li>
-<li>write one test that asks all the questions</li>
-</ul>
-
 ]]></content>
   </entry>
   

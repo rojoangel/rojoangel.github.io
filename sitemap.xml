@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://rojoangel.github.io/blog/2015/09/13/misadventures-with-property-based-tdd-a-lesson-learned/</loc>
+    <lastmod>2015-09-13T19:03:37+02:00</lastmod>
+  </url>
+  <url>
     <loc>http://rojoangel.github.io/blog/2015/09/13/what-not-to-do-in-a-tdd-pair-programming-interview/</loc>
     <lastmod>2015-09-13T11:35:04+02:00</lastmod>
   </url>
@@ -56,5 +60,8 @@
   </url>
   <url>
     <loc>http://rojoangel.github.io/blog/categories/tdd/</loc>
+  </url>
+  <url>
+    <loc>http://rojoangel.github.io/blog/categories/best-practices/</loc>
   </url>
 </urlset>

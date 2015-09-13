@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Reading | /trasteando/]]></title>
   <link href="http://rojoangel.github.io/blog/categories/reading/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-09-13T13:52:24+02:00</updated>
+  <updated>2015-09-13T19:13:02+02:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Misadventures With Property-Based TDD: A Lesson Learned]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/09/13/misadventures-with-property-based-tdd-a-lesson-learned/"/>
+    <updated>2015-09-13T19:03:37+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/09/13/misadventures-with-property-based-tdd-a-lesson-learned</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just read this post about TDD best practices &amp; lessons learned: <a href="http://www.natpryce.com/articles/000800.html">Mistaeks I Hav Made: Misadventures with Property-Based TDD: A Lesson Learned</a></p>
+
+<p>Through a TDD example it reaches the following conclusion:</p>
+
+<blockquote><p>When working from examples, we start with specifics and then generalise, by adding contradictory examples. With property-based tests it seems better to start with very general properties and then specialise.</p></blockquote>
+
+<p>Interestingly the tests used in the example are based on <a href="https://github.com/npryce/python-factcheck">factcheck</a></p>
+
+<blockquote><p>A simple but extensible implementation of QuickCheck for Python 2.7 and Python 3 that works well with Pytest.</p></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[What Not to Do in a TDD Pair Programming Interview]]></title>
