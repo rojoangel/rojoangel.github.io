@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Tdd | /trasteando/]]></title>
   <link href="http://rojoangel.github.io/blog/categories/tdd/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-09-13T19:36:21+02:00</updated>
+  <updated>2015-09-13T20:00:56+02:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tests Should Test One Thing (?)]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/09/13/tests-should-test-one-thing/"/>
+    <updated>2015-09-13T19:55:16+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/09/13/tests-should-test-one-thing</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just read this post about TDD best practices:  <a href="http://codemanship.co.uk/parlezuml/blog/?postid=1325">Tests Should Test One Thing (?)</a></p>
+
+<p>The author states that</p>
+
+<blockquote><p>unit tests should have only one reason to fail</p></blockquote>
+
+<p>and there are several good reasons for this:</p>
+
+<ul>
+<li>Small tests tend to be easier to pass, facilitating &ldquo;baby steps&rdquo; approach to development</li>
+<li>Small tests tend to be easier to understand, serving as clearer specifications</li>
+<li>Small tests When failing, make it easier to pinpoint the problem</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Misadventures With Property-Based TDD: A Lesson Learned]]></title>
