@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://rojoangel.github.io/blog/2015/09/13/mocks-vs-stubs-it-has-nothing-to-do-with-the-implementation/</loc>
+    <lastmod>2015-09-13T20:07:52+02:00</lastmod>
+  </url>
+  <url>
     <loc>http://rojoangel.github.io/blog/2015/09/13/tests-should-test-one-thing/</loc>
     <lastmod>2015-09-13T19:55:16+02:00</lastmod>
   </url>
@@ -74,5 +78,11 @@
   </url>
   <url>
     <loc>http://rojoangel.github.io/blog/categories/exceptions/</loc>
+  </url>
+  <url>
+    <loc>http://rojoangel.github.io/blog/categories/mock/</loc>
+  </url>
+  <url>
+    <loc>http://rojoangel.github.io/blog/categories/stub/</loc>
   </url>
 </urlset>

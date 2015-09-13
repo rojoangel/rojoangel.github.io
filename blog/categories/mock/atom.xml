@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Mock | /trasteando/]]></title>
+  <link href="http://rojoangel.github.io/blog/categories/mock/atom.xml" rel="self"/>
+  <link href="http://rojoangel.github.io/"/>
+  <updated>2015-09-13T20:11:05+02:00</updated>
+  <id>http://rojoangel.github.io/</id>
+  <author>
+    <name><![CDATA[Angel Rojo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Mocks vs. Stubs - It Has Nothing to Do With the Implementation]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/09/13/mocks-vs-stubs-it-has-nothing-to-do-with-the-implementation/"/>
+    <updated>2015-09-13T20:07:52+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/09/13/mocks-vs-stubs-it-has-nothing-to-do-with-the-implementation</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just read this post about the difference between mocks and stubs: <a href="http://codemanship.co.uk/parlezuml/blog/?postid=1313">Mocks vs. Stubs - It Has Nothing To Do With The Implementation</a></p>
+
+<p>According to the post:</p>
+
+<blockquote><p>If we want our test to fail because external data suppled by a collaborator was used incorrectly, it&rsquo;s a stub.</p>
+
+<p>If we want our test to fail because a method was not invoked (correctly) on a collaborator, it&rsquo;s a mock.</p></blockquote>
+]]></content>
+  </entry>
+  
+</feed>
