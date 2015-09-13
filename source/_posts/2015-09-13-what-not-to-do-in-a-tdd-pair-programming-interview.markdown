@@ -1,5 +1,4 @@
 ---
-collection: readings
 layout: post
 title: "What Not To Do In a TDD Pair Programming Interview"
 date: 2015-09-13 11:35:04 +0200

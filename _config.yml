@@ -102,10 +102,3 @@ google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: false
-
-#collections
-collections:
-  readings:
-    output: true
-    permalink: /readings/:path/
-    title: Readings

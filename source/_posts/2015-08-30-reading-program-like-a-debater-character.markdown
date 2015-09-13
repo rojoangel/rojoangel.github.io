@@ -1,5 +1,4 @@
 ---
-collection: readings
 layout: post
 title: "Program Like a Debater: Character, Commitment, Team Work, Hard Work"
 date: 2015-08-30 21:29:00 +0200
