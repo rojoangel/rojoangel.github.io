@@ -6,7 +6,6 @@ url: http://rojoangel.github.io
 title: /trasteando/
 subtitle: Playing around
 author: Angel Rojo
-simple_search: https://www.google.com/search
 description:
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
@@ -102,3 +101,7 @@ google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: false
+
+# Tapir
+#simple_search: https://www.google.com/search
+tapir_token: 55f74c1c38938d5ef9000000
