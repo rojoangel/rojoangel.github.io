@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Reading | /trasteando/]]></title>
   <link href="http://rojoangel.github.io/blog/categories/reading/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-09-13T20:11:05+02:00</updated>
+  <updated>2015-09-14T19:56:51+02:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Mocks vs. Stubs - It Has Nothing to Do With the Implementation]]></title>
+    <title type="html"><![CDATA[Mocks vs. Stubs - It Has Nothing to Do With the Implementation - by Jason Gorman @ Software People Inspiring]]></title>
     <link href="http://rojoangel.github.io/blog/2015/09/13/mocks-vs-stubs-it-has-nothing-to-do-with-the-implementation/"/>
     <updated>2015-09-13T20:07:52+02:00</updated>
     <id>http://rojoangel.github.io/blog/2015/09/13/mocks-vs-stubs-it-has-nothing-to-do-with-the-implementation</id>
@@ -29,7 +29,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Tests Should Test One Thing (?)]]></title>
+    <title type="html"><![CDATA[Tests Should Test One Thing (?) - by Jason Gorman @ Software People Inspiring]]></title>
     <link href="http://rojoangel.github.io/blog/2015/09/13/tests-should-test-one-thing/"/>
     <updated>2015-09-13T19:55:16+02:00</updated>
     <id>http://rojoangel.github.io/blog/2015/09/13/tests-should-test-one-thing</id>
@@ -51,7 +51,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Throw Defect]]></title>
+    <title type="html"><![CDATA[Throw Defect - by Nat Pryce @ Mistaeks I Hav Made]]></title>
     <link href="http://rojoangel.github.io/blog/2015/09/13/throw-defect/"/>
     <updated>2015-09-13T19:27:48+02:00</updated>
     <id>http://rojoangel.github.io/blog/2015/09/13/throw-defect</id>
@@ -96,7 +96,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Misadventures With Property-Based TDD: A Lesson Learned]]></title>
+    <title type="html"><![CDATA[Misadventures With Property-Based TDD: A Lesson Learned - by Nat Pryce @ Mistaeks I Hav Made]]></title>
     <link href="http://rojoangel.github.io/blog/2015/09/13/misadventures-with-property-based-tdd-a-lesson-learned/"/>
     <updated>2015-09-13T19:03:37+02:00</updated>
     <id>http://rojoangel.github.io/blog/2015/09/13/misadventures-with-property-based-tdd-a-lesson-learned</id>
@@ -113,7 +113,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[What Not to Do in a TDD Pair Programming Interview]]></title>
+    <title type="html"><![CDATA[What Not to Do in a TDD Pair Programming Interview - by Jason Gorman @ Software People Inspiring]]></title>
     <link href="http://rojoangel.github.io/blog/2015/09/13/what-not-to-do-in-a-tdd-pair-programming-interview/"/>
     <updated>2015-09-13T11:35:04+02:00</updated>
     <id>http://rojoangel.github.io/blog/2015/09/13/what-not-to-do-in-a-tdd-pair-programming-interview</id>
