@@ -4,6 +4,7 @@ title: "Tests Should Test One Thing (?) - by Jason Gorman @ Software People Insp
 date: 2015-09-13 19:55:16 +0200
 comments: true
 categories: [tdd, best-practices, reading]
+hidden: true
 ---
 I've just read this post about TDD best practices:  [Tests Should Test One Thing (?)](http://codemanship.co.uk/parlezuml/blog/?postid=1325)
 

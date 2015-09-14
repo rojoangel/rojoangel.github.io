@@ -4,6 +4,7 @@ title: "Throw Defect - by Nat Pryce @ Mistaeks I Hav Made"
 date: 2015-09-13 19:27:48 +0200
 comments: true
 categories: [java, exceptions, reading]
+hidden: true
 ---
 I've just read this post about an interesting way to make explicit programmer errors: [Throw Defect](http://www.natpryce.com/articles/000739.html)
 

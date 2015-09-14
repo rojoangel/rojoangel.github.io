@@ -4,6 +4,7 @@ title: "What is Strategic Product Management? – solving day to day problems wi
 date: 2015-09-14 20:02:04 +0200
 comments: true
 categories: [reading, product-management]
+hidden: true
 ---
 I've just read this post about strategic product management: [What is Strategic Product Management? – solving day to day problems with the long term in mind](http://softwaredevelopmenttoday.com/2013/03/what-is-strategic-product-management-solving-day-to-day-problems-with-the-long-term-in-mind/)
 

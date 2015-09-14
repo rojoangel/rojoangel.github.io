@@ -4,6 +4,7 @@ title: "Misadventures with Property-Based TDD: A Lesson Learned - by Nat Pryce @
 date: 2015-09-13 19:03:37 +0200
 comments: true
 categories: [tdd, best-practices, reading]
+hidden: true
 ---
 I've just read this post about TDD best practices & lessons learned: [Mistaeks I Hav Made: Misadventures with Property-Based TDD: A Lesson Learned](http://www.natpryce.com/articles/000800.html)
 

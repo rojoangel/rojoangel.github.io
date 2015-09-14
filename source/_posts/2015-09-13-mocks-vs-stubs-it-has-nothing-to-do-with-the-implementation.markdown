@@ -4,6 +4,7 @@ title: "Mocks vs. Stubs - It Has Nothing To Do With The Implementation - by Jaso
 date: 2015-09-13 20:07:52 +0200
 comments: true
 categories: [tdd, mock, stub, reading]
+hidden: true
 ---
 I've just read this post about the difference between mocks and stubs: [Mocks vs. Stubs - It Has Nothing To Do With The Implementation](http://codemanship.co.uk/parlezuml/blog/?postid=1313)
 

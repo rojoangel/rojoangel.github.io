@@ -4,6 +4,7 @@ title: "What Not To Do In a TDD Pair Programming Interview - by Jason Gorman @ S
 date: 2015-09-13 11:35:04 +0200
 comments: true
 categories: [reading, tdd]
+hidden: true
 ---
 I've just read this post about TDD best practices:  [What Not To Do In a TDD Pair Programming Interview - Software People Inspiring](http://codemanship.co.uk/parlezuml/blog/?postid=1324)
 
