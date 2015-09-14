@@ -4,7 +4,7 @@
   <title><![CDATA[/trasteando/]]></title>
   <link href="http://rojoangel.github.io/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-09-15T00:33:08+02:00</updated>
+  <updated>2015-09-15T00:36:24+02:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -14,8 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[What is Strategic Product Management? – solving day to day problems with the long term in mind - by Vasco Duarte @ Software Development Today]]></title>
-    <summary><![CDATA[]]></summary>
+    <title type="html"><![CDATA[What Is Strategic Product Management? – Solving Day to Day Problems With the Long Term in Mind - by Vasco Duarte @ Software Development Today]]></title>
     <link href="http://rojoangel.github.io/blog/2015/09/14/what-is-strategic-product-management-solving-day-to-day-problems-with-the-long-term-in-mind/"/>
     <updated>2015-09-14T20:02:04+02:00</updated>
     <id>http://rojoangel.github.io/blog/2015/09/14/what-is-strategic-product-management-solving-day-to-day-problems-with-the-long-term-in-mind</id>
@@ -48,8 +47,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Mocks vs. Stubs - It Has Nothing To Do With The Implementation - by Jason Gorman @ Software People Inspiring]]></title>
-    <summary><![CDATA[]]></summary>
+    <title type="html"><![CDATA[Mocks vs. Stubs - It Has Nothing to Do With the Implementation - by Jason Gorman @ Software People Inspiring]]></title>
     <link href="http://rojoangel.github.io/blog/2015/09/13/mocks-vs-stubs-it-has-nothing-to-do-with-the-implementation/"/>
     <updated>2015-09-13T20:07:52+02:00</updated>
     <id>http://rojoangel.github.io/blog/2015/09/13/mocks-vs-stubs-it-has-nothing-to-do-with-the-implementation</id>
@@ -65,7 +63,6 @@
   
   <entry>
     <title type="html"><![CDATA[Tests Should Test One Thing (?) - by Jason Gorman @ Software People Inspiring]]></title>
-    <summary><![CDATA[]]></summary>
     <link href="http://rojoangel.github.io/blog/2015/09/13/tests-should-test-one-thing/"/>
     <updated>2015-09-13T19:55:16+02:00</updated>
     <id>http://rojoangel.github.io/blog/2015/09/13/tests-should-test-one-thing</id>
@@ -88,7 +85,6 @@
   
   <entry>
     <title type="html"><![CDATA[Throw Defect - by Nat Pryce @ Mistaeks I Hav Made]]></title>
-    <summary><![CDATA[]]></summary>
     <link href="http://rojoangel.github.io/blog/2015/09/13/throw-defect/"/>
     <updated>2015-09-13T19:27:48+02:00</updated>
     <id>http://rojoangel.github.io/blog/2015/09/13/throw-defect</id>
@@ -135,8 +131,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Misadventures with Property-Based TDD: A Lesson Learned - by Nat Pryce @ Mistaeks I Hav Made]]></title>
-    <summary><![CDATA[]]></summary>
+    <title type="html"><![CDATA[Misadventures With Property-Based TDD: A Lesson Learned - by Nat Pryce @ Mistaeks I Hav Made]]></title>
     <link href="http://rojoangel.github.io/blog/2015/09/13/misadventures-with-property-based-tdd-a-lesson-learned/"/>
     <updated>2015-09-13T19:03:37+02:00</updated>
     <id>http://rojoangel.github.io/blog/2015/09/13/misadventures-with-property-based-tdd-a-lesson-learned</id>
@@ -153,8 +148,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[What Not To Do In a TDD Pair Programming Interview - by Jason Gorman @ Software People Inspiring]]></title>
-    <summary><![CDATA[]]></summary>
+    <title type="html"><![CDATA[What Not to Do in a TDD Pair Programming Interview - by Jason Gorman @ Software People Inspiring]]></title>
     <link href="http://rojoangel.github.io/blog/2015/09/13/what-not-to-do-in-a-tdd-pair-programming-interview/"/>
     <updated>2015-09-13T11:35:04+02:00</updated>
     <id>http://rojoangel.github.io/blog/2015/09/13/what-not-to-do-in-a-tdd-pair-programming-interview</id>
@@ -179,8 +173,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Are They The Same? Kata Java Solution]]></title>
-    <summary><![CDATA[]]></summary>
+    <title type="html"><![CDATA[Are They the Same? Kata Java Solution]]></title>
     <link href="http://rojoangel.github.io/blog/2015/09/02/are-they-the-same-kata-java-solution/"/>
     <updated>2015-09-02T22:47:19+02:00</updated>
     <id>http://rojoangel.github.io/blog/2015/09/02/are-they-the-same-kata-java-solution</id>
@@ -612,7 +605,6 @@
   
   <entry>
     <title type="html"><![CDATA[Bootstrapping an Agile Team [Part 1 – People] - by Brendan Marsh]]></title>
-    <summary><![CDATA[]]></summary>
     <link href="http://rojoangel.github.io/blog/2015/09/02/bootstrapping-an-agile-team-part-1-people/"/>
     <updated>2015-09-02T00:22:36+02:00</updated>
     <id>http://rojoangel.github.io/blog/2015/09/02/bootstrapping-an-agile-team-part-1-people</id>
@@ -623,8 +615,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Does My Bus Look Big in This? - by Martin Fowler & Jim Webber @ infoq]]></title>
-    <summary><![CDATA[]]></summary>
+    <title type="html"><![CDATA[Does My Bus Look Big in This? - by Martin Fowler & Jim Webber @ Infoq]]></title>
     <link href="http://rojoangel.github.io/blog/2015/09/01/does-my-bus-look-big-in-this/"/>
     <updated>2015-09-01T00:51:36+02:00</updated>
     <id>http://rojoangel.github.io/blog/2015/09/01/does-my-bus-look-big-in-this</id>
@@ -633,8 +624,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Program Like a Debater: Character, Commitment, Team Work, Hard Work - by Rob Mulholand @ 8th light]]></title>
-    <summary><![CDATA[]]></summary>
+    <title type="html"><![CDATA[Program Like a Debater: Character, Commitment, Team Work, Hard Work - by Rob Mulholand @ 8th Light]]></title>
     <link href="http://rojoangel.github.io/blog/2015/08/30/reading-program-like-a-debater-character/"/>
     <updated>2015-08-30T21:29:00+02:00</updated>
     <id>http://rojoangel.github.io/blog/2015/08/30/reading-program-like-a-debater-character</id>
@@ -644,7 +634,6 @@
   
   <entry>
     <title type="html"><![CDATA[Binary Search Tree Kata PHP Solution]]></title>
-    <summary><![CDATA[]]></summary>
     <link href="http://rojoangel.github.io/blog/2015/08/02/binary-search-tree-kata-php-solution/"/>
     <updated>2015-08-02T22:52:17+02:00</updated>
     <id>http://rojoangel.github.io/blog/2015/08/02/binary-search-tree-kata-php-solution</id>
