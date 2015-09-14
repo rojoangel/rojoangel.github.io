@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mocks vs. Stubs - It Has Nothing To Do With The Implementation"
+title: "Mocks vs. Stubs - It Has Nothing To Do With The Implementation - by Jason Gorman @ Software People Inspiring"
 date: 2015-09-13 20:07:52 +0200
 comments: true
 categories: [tdd, mock, stub, reading]

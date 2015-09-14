@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Misadventures with Property-Based TDD: A Lesson Learned"
+title: "Misadventures with Property-Based TDD: A Lesson Learned - by Nat Pryce @ Mistaeks I Hav Made"
 date: 2015-09-13 19:03:37 +0200
 comments: true
 categories: [tdd, best-practices, reading]

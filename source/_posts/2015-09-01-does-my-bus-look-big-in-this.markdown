@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Does My Bus Look Big in This?"
+title: "Does My Bus Look Big in This? - by Martin Fowler & Jim Webber @ infoq"
 date: 2015-09-01 00:51:36 +0200
 comments: true
 categories: [craftmanship, presentation, reading]

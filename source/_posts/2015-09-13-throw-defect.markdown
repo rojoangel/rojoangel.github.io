@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Throw Defect"
+title: "Throw Defect - by Nat Pryce @ Mistaeks I Hav Made"
 date: 2015-09-13 19:27:48 +0200
 comments: true
 categories: [java, exceptions, reading]

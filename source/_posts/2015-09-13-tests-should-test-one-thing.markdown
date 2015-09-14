@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tests Should Test One Thing (?)"
+title: "Tests Should Test One Thing (?) - by Jason Gorman @ Software People Inspiring"
 date: 2015-09-13 19:55:16 +0200
 comments: true
 categories: [tdd, best-practices, reading]
