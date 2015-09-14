@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://rojoangel.github.io/blog/2015/09/14/what-is-strategic-product-management-solving-day-to-day-problems-with-the-long-term-in-mind/</loc>
+    <lastmod>2015-09-14T20:02:04+02:00</lastmod>
+  </url>
+  <url>
     <loc>http://rojoangel.github.io/blog/2015/09/13/mocks-vs-stubs-it-has-nothing-to-do-with-the-implementation/</loc>
     <lastmod>2015-09-13T20:07:52+02:00</lastmod>
   </url>
@@ -84,5 +88,11 @@
   </url>
   <url>
     <loc>http://rojoangel.github.io/blog/categories/stub/</loc>
+  </url>
+  <url>
+    <loc>http://rojoangel.github.io/blog/categories/product-management/</loc>
+  </url>
+  <url>
+    <loc>http://rojoangel.github.io/page2/</loc>
   </url>
 </urlset>

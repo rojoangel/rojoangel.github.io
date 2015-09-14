@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Reading | /trasteando/]]></title>
   <link href="http://rojoangel.github.io/blog/categories/reading/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-09-14T19:56:51+02:00</updated>
+  <updated>2015-09-14T20:20:04+02:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[What Is Strategic Product Management? – Solving Day to Day Problems With the Long Term in Mind - by Vasco Duarte @ Software Development Today]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/09/14/what-is-strategic-product-management-solving-day-to-day-problems-with-the-long-term-in-mind/"/>
+    <updated>2015-09-14T20:02:04+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/09/14/what-is-strategic-product-management-solving-day-to-day-problems-with-the-long-term-in-mind</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just read this post about strategic product management: <a href="http://softwaredevelopmenttoday.com/2013/03/what-is-strategic-product-management-solving-day-to-day-problems-with-the-long-term-in-mind/">What is Strategic Product Management? – solving day to day problems with the long term in mind</a></p>
+
+<p>These are notes to myself:</p>
+
+<p>Sometimes is easy to lose sight on the long term direction:</p>
+
+<blockquote><p>One team that I worked with at some point coined the phrase “being a slave to the backlog” to describe the feeling of powerlessness, and being imprisoned in the relentless rhythm that took them from story to story through overtime and much stress without a clear vision or direction.</p></blockquote>
+
+<p>We must always:</p>
+
+<ul>
+<li>begin with end in mind</li>
+<li>define the product vision</li>
+<li>regularly review those base on the feedback collected throughout development</li>
+</ul>
+
+
+<p>Strategic product management focuses on:</p>
+
+<ul>
+<li>strategy</li>
+<li>portfolio</li>
+<li>roadmap</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mocks vs. Stubs - It Has Nothing to Do With the Implementation - by Jason Gorman @ Software People Inspiring]]></title>
@@ -109,31 +142,6 @@
 <p>Interestingly the tests used in the example are based on <a href="https://github.com/npryce/python-factcheck">factcheck</a></p>
 
 <blockquote><p>A simple but extensible implementation of QuickCheck for Python 2.7 and Python 3 that works well with Pytest.</p></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[What Not to Do in a TDD Pair Programming Interview - by Jason Gorman @ Software People Inspiring]]></title>
-    <link href="http://rojoangel.github.io/blog/2015/09/13/what-not-to-do-in-a-tdd-pair-programming-interview/"/>
-    <updated>2015-09-13T11:35:04+02:00</updated>
-    <id>http://rojoangel.github.io/blog/2015/09/13/what-not-to-do-in-a-tdd-pair-programming-interview</id>
-    <content type="html"><![CDATA[<p>I&rsquo;ve just read this post about TDD best practices:  <a href="http://codemanship.co.uk/parlezuml/blog/?postid=1324">What Not To Do In a TDD Pair Programming Interview - Software People Inspiring</a></p>
-
-<p>Although initially focused on pair programming interviews, the recommendations also apply to your day-to-day TDD flow.</p>
-
-<p>Here&rsquo;s summary of DONT&rsquo;s:</p>
-
-<ul>
-<li>start by writing implementation code</li>
-<li>introduce speculative generality (create code we don&rsquo;t need to pass the tests)</li>
-<li>write weak or meaningless tests</li>
-<li>write redundant tests</li>
-<li>not running the tests</li>
-<li>not refactoring when it&rsquo;s obviously needed</li>
-<li>hack away at the code when &lsquo;refactoring&rsquo;</li>
-<li>write one test that asks all the questions</li>
-</ul>
-
 ]]></content>
   </entry>
   
