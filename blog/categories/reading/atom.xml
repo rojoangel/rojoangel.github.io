@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Reading | /trasteando/]]></title>
   <link href="http://rojoangel.github.io/blog/categories/reading/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-09-15T19:51:01+02:00</updated>
+  <updated>2015-09-15T20:16:23+02:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Slides for My 'Dependency Injection Smells' Talk - by Matthias Noback @ PHP & Symfony]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/09/15/slides-for-my-dependency-injection-smells-talk/"/>
+    <updated>2015-09-15T20:09:34+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/09/15/slides-for-my-dependency-injection-smells-talk</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just read these slides about dependency injection smells: <a href="http://php-and-symfony.matthiasnoback.nl/2013/06/slides-for-my-dependency-injection-smells-talk/">Slides for my &lsquo;Dependency Injection Smells&rsquo; talk</a></p>
+
+<p>These are notes to myself.</p>
+
+<h3>Dependency injection smells:</h3>
+
+<ul>
+<li>static dependency</li>
+<li>missing dependency auto-recovery</li>
+<li>hidden dependencies</li>
+<li>creation logic reduction</li>
+<li>factory methods</li>
+<li>programming against an implementation</li>
+<li>dependencies prohibited</li>
+</ul>
+
+
+<h3>Keep in mind:</h3>
+
+<ul>
+<li>be clear and open about your dependencies</li>
+<li>require only a minimum amount of dependencies</li>
+<li>develop with your users (other developers) in mind</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Inject a Repository Instead of an Entity Manager - by Matthias Noback @ PHP & Symfony]]></title>
@@ -89,51 +122,6 @@
 <li>Small tests When failing, make it easier to pinpoint the problem</li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Throw Defect - by Nat Pryce @ Mistaeks I Hav Made]]></title>
-    <link href="http://rojoangel.github.io/blog/2015/09/13/throw-defect/"/>
-    <updated>2015-09-13T19:27:48+02:00</updated>
-    <id>http://rojoangel.github.io/blog/2015/09/13/throw-defect</id>
-    <content type="html"><![CDATA[<p>I&rsquo;ve just read this post about an interesting way to make explicit programmer errors: <a href="http://www.natpryce.com/articles/000739.html">Throw Defect</a></p>
-
-<p>This can be particularly useful to catch errors that are not expected to happen. Here&rsquo;s an example from the original post:</p>
-
-<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="n">Template</span> <span class="n">template</span><span class="o">;</span>
-</span><span class='line'><span class="k">try</span> <span class="o">{</span>
-</span><span class='line'>    <span class="n">template</span> <span class="o">=</span> <span class="k">new</span> <span class="nf">Template</span><span class="o">(</span><span class="n">getClass</span><span class="o">().</span><span class="na">getResource</span><span class="o">(&amp;</span><span class="n">ldquo</span><span class="o">;</span><span class="n">data</span><span class="o">-</span><span class="n">that</span><span class="o">-</span><span class="n">is</span><span class="o">-</span><span class="n">compiled</span><span class="o">-</span><span class="n">into</span><span class="o">-</span><span class="n">the</span><span class="o">-</span><span class="n">app</span><span class="o">.</span><span class="na">xml</span><span class="o">&amp;</span><span class="n">rdquo</span><span class="o">;));</span>
-</span><span class='line'><span class="o">}</span>
-</span><span class='line'><span class="k">catch</span> <span class="o">(</span><span class="n">IOException</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span>
-</span><span class='line'>    <span class="c1">// should never happen</span>
-</span><span class='line'><span class="o">}</span>
-</span></code></pre></td></tr></table></div></figure></p>
-
-<p>The &lsquo;should never happen&rsquo; comment block can be replaced - thus making the error explicit - in the following way:</p>
-
-<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="n">Template</span> <span class="n">template</span><span class="o">;</span>
-</span><span class='line'><span class="k">try</span> <span class="o">{</span>
-</span><span class='line'>    <span class="n">template</span> <span class="o">=</span> <span class="k">new</span> <span class="nf">Template</span><span class="o">(</span><span class="n">getClass</span><span class="o">().</span><span class="na">getResource</span><span class="o">(&amp;</span><span class="n">ldquo</span><span class="o">;</span><span class="n">data</span><span class="o">-</span><span class="n">that</span><span class="o">-</span><span class="n">is</span><span class="o">-</span><span class="n">compiled</span><span class="o">-</span><span class="n">into</span><span class="o">-</span><span class="n">the</span><span class="o">-</span><span class="n">app</span><span class="o">.</span><span class="na">xml</span><span class="o">&amp;</span><span class="n">rdquo</span><span class="o">;));</span>
-</span><span class='line'><span class="o">}</span>
-</span><span class='line'><span class="k">catch</span> <span class="o">(</span><span class="n">IOException</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span>
-</span><span class='line'>    <span class="k">throw</span> <span class="k">new</span> <span class="nf">Defect</span><span class="o">(&amp;</span><span class="n">ldquo</span><span class="o">;</span><span class="n">could</span> <span class="n">not</span> <span class="n">load</span> <span class="n">template</span><span class="o">&amp;</span><span class="n">rdquo</span><span class="o">;,</span> <span class="n">e</span><span class="o">);</span>
-</span><span class='line'><span class="o">}</span>
-</span></code></pre></td></tr></table></div></figure></p>
 ]]></content>
   </entry>
   
