@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Php | /trasteando/]]></title>
   <link href="http://rojoangel.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-09-15T01:05:41+02:00</updated>
+  <updated>2015-09-15T19:51:01+02:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Inject a Repository Instead of an Entity Manager - by Matthias Noback @ PHP & Symfony]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/09/15/inject-a-repository-instead-of-an-entity-manager/"/>
+    <updated>2015-09-15T19:45:31+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/09/15/inject-a-repository-instead-of-an-entity-manager</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just read this post recommending to inject repository instead of an entity manager: <a href="http://php-and-symfony.matthiasnoback.nl/2014/05/inject-a-repository-instead-of-an-entity-manager/">Inject a repository instead of an entity manager</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Binary Search Tree Kata PHP Solution]]></title>
