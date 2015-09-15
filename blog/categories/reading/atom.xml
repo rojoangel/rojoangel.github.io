@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Reading | /trasteando/]]></title>
   <link href="http://rojoangel.github.io/blog/categories/reading/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-09-15T20:16:23+02:00</updated>
+  <updated>2015-09-15T20:52:15+02:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[A Tech Lead Paradox: Technical Needs vs Business Needs - by Pat Kua @ thekua.com@work]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/09/15/a-tech-lead-paradox-technical-needs-vs-business-needs/"/>
+    <updated>2015-09-15T20:38:50+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/09/15/a-tech-lead-paradox-technical-needs-vs-business-needs</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just read this post <a href="https://www.thekua.com/atwork/2014/12/a-tech-lead-paradox-technical-needs-vs-business-needs/">A tech lead paradox: technical needs vs business needs</a> about the conflict between business and technical needs:</p>
+
+<blockquote><p>A business will always put pressure on a development team to produce as much software as possible. At the same time, effective delivery of software is not possible without addressing some level of technical needs – such as technical debt, deployment pipelines, or automated test suites.</p></blockquote>
+
+<p>The article proposes the following practices to deal with the conflict:</p>
+
+<ul>
+<li>champion time for technical needs</li>
+<li>explain the business benefit of each technical need in order to build trust with non-technical people</li>
+<li>work on high impact items first</li>
+<li>keep a balance</li>
+<li>maximize the use of &lsquo;quiet&rsquo; periods</li>
+</ul>
+
+
+<p>The article refers to <a href="https://www.thoughtworks.com/de/insights/blog/embracing-paradox">Embracing Paradox - by Jim Highsmith</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Slides for My 'Dependency Injection Smells' Talk - by Matthias Noback @ PHP & Symfony]]></title>
@@ -100,28 +124,6 @@
 <blockquote><p>If we want our test to fail because external data suppled by a collaborator was used incorrectly, it&rsquo;s a stub.</p>
 
 <p>If we want our test to fail because a method was not invoked (correctly) on a collaborator, it&rsquo;s a mock.</p></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Tests Should Test One Thing (?) - by Jason Gorman @ Software People Inspiring]]></title>
-    <link href="http://rojoangel.github.io/blog/2015/09/13/tests-should-test-one-thing/"/>
-    <updated>2015-09-13T19:55:16+02:00</updated>
-    <id>http://rojoangel.github.io/blog/2015/09/13/tests-should-test-one-thing</id>
-    <content type="html"><![CDATA[<p>I&rsquo;ve just read this post about TDD best practices:  <a href="http://codemanship.co.uk/parlezuml/blog/?postid=1325">Tests Should Test One Thing (?)</a></p>
-
-<p>The author states that</p>
-
-<blockquote><p>unit tests should have only one reason to fail</p></blockquote>
-
-<p>and there are several good reasons for this:</p>
-
-<ul>
-<li>Small tests tend to be easier to pass, facilitating &ldquo;baby steps&rdquo; approach to development</li>
-<li>Small tests tend to be easier to understand, serving as clearer specifications</li>
-<li>Small tests When failing, make it easier to pinpoint the problem</li>
-</ul>
-
 ]]></content>
   </entry>
   
