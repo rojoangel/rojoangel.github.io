@@ -4,7 +4,7 @@
   <title><![CDATA[/trasteando/]]></title>
   <link href="http://rojoangel.github.io/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-09-16T22:40:23+02:00</updated>
+  <updated>2015-09-16T22:48:31+02:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -26,6 +26,8 @@
 <blockquote><p>By doing the simplest thing that could possibly work, we’re exposing ourselves to the incidental complexity</p>
 
 <p>The idea of sustainability assumes that resources are finite but cyclical. When you exhaust some amount of a resource, it can replenish itself only after a similar investment in its restoration.</p></blockquote>
+
+<p>The article refers to <a href="http://shaffner.us/cs/papers/tarpit.pdf">Out of the Tar Pit - by Ben Moseley &amp; Peter Marks</a></p>
 ]]></content>
   </entry>
   
