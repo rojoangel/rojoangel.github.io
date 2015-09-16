@@ -4,7 +4,7 @@
   <title><![CDATA[/trasteando/]]></title>
   <link href="http://rojoangel.github.io/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-09-15T21:49:38+02:00</updated>
+  <updated>2015-09-16T22:40:23+02:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Optimizing the Sustainable Pace - by Paul Pagel @ 8th Light]]></title>
+    <summary><![CDATA[]]></summary>
+    <link href="http://rojoangel.github.io/blog/2015/09/16/optimizing-the-sustainable-pace/"/>
+    <updated>2015-09-16T22:34:24+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/09/16/optimizing-the-sustainable-pace</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just read this post about <a href="https://blog.8thlight.com/paul-pagel/2015/09/15/optimize-sustainable-pace.html">Optimizing the Sustainable Pace</a>.</p>
+
+<p>This are notes to myself.</p>
+
+<blockquote><p>By doing the simplest thing that could possibly work, we’re exposing ourselves to the incidental complexity</p>
+
+<p>The idea of sustainability assumes that resources are finite but cyclical. When you exhaust some amount of a resource, it can replenish itself only after a similar investment in its restoration.</p></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[A tech lead paradox: technical needs vs business needs - by Pat Kua @ thekua.com@work]]></title>

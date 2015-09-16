@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Agile | /trasteando/]]></title>
-  <link href="http://rojoangel.github.io/blog/categories/agile/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Xp | /trasteando/]]></title>
+  <link href="http://rojoangel.github.io/blog/categories/xp/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
   <updated>2015-09-16T22:40:23+02:00</updated>
   <id>http://rojoangel.github.io/</id>
@@ -25,17 +25,6 @@
 <blockquote><p>By doing the simplest thing that could possibly work, we’re exposing ourselves to the incidental complexity</p>
 
 <p>The idea of sustainability assumes that resources are finite but cyclical. When you exhaust some amount of a resource, it can replenish itself only after a similar investment in its restoration.</p></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bootstrapping an Agile Team [Part 1 – People] - by Brendan Marsh]]></title>
-    <link href="http://rojoangel.github.io/blog/2015/09/02/bootstrapping-an-agile-team-part-1-people/"/>
-    <updated>2015-09-02T00:22:36+02:00</updated>
-    <id>http://rojoangel.github.io/blog/2015/09/02/bootstrapping-an-agile-team-part-1-people</id>
-    <content type="html"><![CDATA[<p>I’ve just read this post talking about some facilitations to enable team members to get to know them better: <a href="http://brendanmarsh.com/agile/bootstrapping-an-agile-team-part-1-people/">Bootstrapping an Agile Team [Part 1 – People]</a></p>
-
-<p>Looking forward to read parts 2 &amp; 3.</p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Reading | /trasteando/]]></title>
   <link href="http://rojoangel.github.io/blog/categories/reading/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-09-15T21:49:38+02:00</updated>
+  <updated>2015-09-16T22:40:23+02:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Optimizing the Sustainable Pace - by Paul Pagel @ 8th Light]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/09/16/optimizing-the-sustainable-pace/"/>
+    <updated>2015-09-16T22:34:24+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/09/16/optimizing-the-sustainable-pace</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just read this post about <a href="https://blog.8thlight.com/paul-pagel/2015/09/15/optimize-sustainable-pace.html">Optimizing the Sustainable Pace</a>.</p>
+
+<p>This are notes to myself.</p>
+
+<blockquote><p>By doing the simplest thing that could possibly work, we’re exposing ourselves to the incidental complexity</p>
+
+<p>The idea of sustainability assumes that resources are finite but cyclical. When you exhaust some amount of a resource, it can replenish itself only after a similar investment in its restoration.</p></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[A Tech Lead Paradox: Technical Needs vs Business Needs - by Pat Kua @ thekua.com@work]]></title>
@@ -109,21 +124,6 @@
 <li>roadmap</li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mocks vs. Stubs - It Has Nothing to Do With the Implementation - by Jason Gorman @ Software People Inspiring]]></title>
-    <link href="http://rojoangel.github.io/blog/2015/09/13/mocks-vs-stubs-it-has-nothing-to-do-with-the-implementation/"/>
-    <updated>2015-09-13T20:07:52+02:00</updated>
-    <id>http://rojoangel.github.io/blog/2015/09/13/mocks-vs-stubs-it-has-nothing-to-do-with-the-implementation</id>
-    <content type="html"><![CDATA[<p>I&rsquo;ve just read this post about the difference between mocks and stubs: <a href="http://codemanship.co.uk/parlezuml/blog/?postid=1313">Mocks vs. Stubs - It Has Nothing To Do With The Implementation</a></p>
-
-<p>According to the post:</p>
-
-<blockquote><p>If we want our test to fail because external data suppled by a collaborator was used incorrectly, it&rsquo;s a stub.</p>
-
-<p>If we want our test to fail because a method was not invoked (correctly) on a collaborator, it&rsquo;s a mock.</p></blockquote>
 ]]></content>
   </entry>
   
