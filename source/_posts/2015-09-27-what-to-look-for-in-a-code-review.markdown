@@ -11,6 +11,7 @@ I've just read this post about [What to look for in a Code Review](http://blog.j
 These are notes to myself.
 
 Automatize these:
+
 - Formatting
 - Style
 - Naming
@@ -19,6 +20,7 @@ Automatize these:
 Instead look for:
 
 **Design**
+
 - Fit with the overall architecture?
 - SOLID principles, Domain Driven Design
 - Design patterns used. Are these appropriate?
@@ -28,6 +30,7 @@ Instead look for:
 - Is the code over-engineered? YAGNI?
 
 **Readability & Maintainability**
+
 - Do the names actually reflect the thing they represent?
 - Can I understand what the code does by reading it?
 - Can I understand what the tests do?
@@ -36,10 +39,12 @@ Instead look for:
 - Are confusing sections of code either documented, commented, or covered by understandable tests (according to team preference)?
 
 **Functionality**
+
 - Does the code actually do what it was supposed to do? Do the tests really test the code meets the agreed requirements?
 - Does the code look like it contains subtle bugs, like using the wrong variable for a check, or accidentally using an and instead of an or?
 
 **Have you thought about…?**
+
 - Security
 - Regulatory requirements that need to be met?
 - Does the new code introduce avoidable performance issues
