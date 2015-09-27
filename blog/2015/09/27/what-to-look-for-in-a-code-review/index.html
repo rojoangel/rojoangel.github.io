@@ -5,13 +5,15 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Blog Archive - /trasteando/</title>
+  <title>What to Look for in a Code Review - by Trisha Gee @ JetBrains Upsource Blog - /trasteando/</title>
   <meta name="author" content="Angel Rojo">
 
   
-  <meta name="description" content="Blog Archive 2015 Are They the Same? Kata Java Solution
-Sep 02 2015 posted in java, kata Binary Search Tree Kata PHP Solution
-Aug 02 2015 posted in &hellip;">
+  <meta name="description" content="I&rsquo;ve just read this post about What to look for in a Code Review. These are notes to myself. Automatize these:
+- Formatting
+- Style
+- Naming
+- &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +22,7 @@ Aug 02 2015 posted in &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://rojoangel.github.io/blog/archives">
+  <link rel="canonical" href="http://rojoangel.github.io/blog/2015/09/27/what-to-look-for-in-a-code-review">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="/trasteando/" type="application/atom+xml">
@@ -103,106 +105,124 @@ Aug 02 2015 posted in &hellip;">
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Blog Archive</h1>
+    
+      
+        <h1 class="entry-title">What to Look for in a Code Review - by Trisha Gee @ JetBrains Upsource Blog</h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-09-27T20:24:13+02:00'><span class='date'><span class='date-month'>Sep</span> <span class='date-day'>27</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>8:24 pm</span></time>
+        
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives">
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-    
-    
-      
-      <h2>2015</h2>
-    
-    <article>
-      
-<h1><a href="/blog/2015/09/02/are-they-the-same-kata-java-solution/">Are They the Same? Kata Java Solution</a></h1>
-<time datetime="2015-09-02T22:47:19+02:00" pubdate><span class='month'>Sep</span> <span class='day'>02</span> <span class='year'>2015</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/java/'>java</a>, <a class='category' href='/blog/categories/kata/'>kata</a></span>
-</footer>
 
 
-    </article>
-  
+<div class="entry-content"><p>I&rsquo;ve just read this post about <a href="http://blog.jetbrains.com/upsource/2015/07/23/what-to-look-for-in-a-code-review/">What to look for in a Code Review</a>.</p>
 
-  
-  
+<p>These are notes to myself.</p>
 
-  
-  
+<p>Automatize these:
+- Formatting
+- Style
+- Naming
+- Test coverage</p>
 
-  
-  
+<p>Instead look for:</p>
 
-  
-    
-    
-    <article>
-      
-<h1><a href="/blog/2015/08/02/binary-search-tree-kata-php-solution/">Binary Search Tree Kata PHP Solution</a></h1>
-<time datetime="2015-08-02T22:52:17+02:00" pubdate><span class='month'>Aug</span> <span class='day'>02</span> <span class='year'>2015</span></time>
+<p><strong>Design</strong>
+- Fit with the overall architecture?
+- SOLID principles, Domain Driven Design
+- Design patterns used. Are these appropriate?
+- Does this new code follow the current practices? Is the code migrating in the correct direction?
+- Is the code in the right place?
+- Could the new code have reused something in the existing code? Does the new code provide something we can reuse in the existing code? Does the new code introduce duplication?
+- Is the code over-engineered? YAGNI?</p>
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/kata/'>kata</a>, <a class='category' href='/blog/categories/php/'>php</a></span>
-</footer>
+<p><strong>Readability &amp; Maintainability</strong>
+- Do the names actually reflect the thing they represent?
+- Can I understand what the code does by reading it?
+- Can I understand what the tests do?
+- Do the tests cover a good subset of cases? Do they cover happy paths and exceptional cases? Are there cases that haven’t been considered?
+- Are the exception error messages understandable?
+- Are confusing sections of code either documented, commented, or covered by understandable tests (according to team preference)?</p>
 
+<p><strong>Functionality</strong>
+- Does the code actually do what it was supposed to do? Do the tests really test the code meets the agreed requirements?
+- Does the code look like it contains subtle bugs, like using the wrong variable for a check, or accidentally using an and instead of an or?</p>
 
-    </article>
-  
-
+<p><strong>Have you thought about…?</strong>
+- Security
+- Regulatory requirements that need to be met?
+- Does the new code introduce avoidable performance issues
+- Does the author need to create public documentation, or change existing one?
+- Have user-facing messages been checked for correctness?
+- Are there obvious errors that will stop this working in production?</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+
+
+  <span class="byline author vcard">Authored by <span class="fn">
+  
+    Angel Rojo
+  
+  </span></span>
+
+
+      
+
+
+
+
+<time class='entry-date' datetime='2015-09-27T20:24:13+02:00'><span class='date'><span class='date-month'>Sep</span> <span class='date-day'>27</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>8:24 pm</span></time>
+      
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/code-review/'>code-review</a>, <a class='category' href='/blog/categories/reading/'>reading</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://rojoangel.github.io/blog/2015/09/27/what-to-look-for-in-a-code-review/" data-via="rojo_angel" data-counturl="http://rojoangel.github.io/blog/2015/09/27/what-to-look-for-in-a-code-review/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/09/16/optimizing-the-sustainable-pace/" title="Previous Post: Optimizing the Sustainable Pace - by Paul Pagel @ 8th Light">&laquo; Optimizing the Sustainable Pace - by Paul Pagel @ 8th Light</a>
+      
+      
+    </p>
+  </footer>
 </article>
 
 
 </div>
-
-<aside class="sidebar">
-  
-    
-  
-</aside>
-
 
     </div>
   </div>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Code-review | /trasteando/]]></title>
+  <link href="http://rojoangel.github.io/blog/categories/code-review/atom.xml" rel="self"/>
+  <link href="http://rojoangel.github.io/"/>
+  <updated>2015-09-27T20:43:52+02:00</updated>
+  <id>http://rojoangel.github.io/</id>
+  <author>
+    <name><![CDATA[Angel Rojo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[What to Look for in a Code Review - by Trisha Gee @ JetBrains Upsource Blog]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/09/27/what-to-look-for-in-a-code-review/"/>
+    <updated>2015-09-27T20:24:13+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/09/27/what-to-look-for-in-a-code-review</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just read this post about <a href="http://blog.jetbrains.com/upsource/2015/07/23/what-to-look-for-in-a-code-review/">What to look for in a Code Review</a>.</p>
+
+<p>These are notes to myself.</p>
+
+<p>Automatize these:
+- Formatting
+- Style
+- Naming
+- Test coverage</p>
+
+<p>Instead look for:</p>
+
+<p><strong>Design</strong>
+- Fit with the overall architecture?
+- SOLID principles, Domain Driven Design
+- Design patterns used. Are these appropriate?
+- Does this new code follow the current practices? Is the code migrating in the correct direction?
+- Is the code in the right place?
+- Could the new code have reused something in the existing code? Does the new code provide something we can reuse in the existing code? Does the new code introduce duplication?
+- Is the code over-engineered? YAGNI?</p>
+
+<p><strong>Readability &amp; Maintainability</strong>
+- Do the names actually reflect the thing they represent?
+- Can I understand what the code does by reading it?
+- Can I understand what the tests do?
+- Do the tests cover a good subset of cases? Do they cover happy paths and exceptional cases? Are there cases that haven’t been considered?
+- Are the exception error messages understandable?
+- Are confusing sections of code either documented, commented, or covered by understandable tests (according to team preference)?</p>
+
+<p><strong>Functionality</strong>
+- Does the code actually do what it was supposed to do? Do the tests really test the code meets the agreed requirements?
+- Does the code look like it contains subtle bugs, like using the wrong variable for a check, or accidentally using an and instead of an or?</p>
+
+<p><strong>Have you thought about…?</strong>
+- Security
+- Regulatory requirements that need to be met?
+- Does the new code introduce avoidable performance issues
+- Does the author need to create public documentation, or change existing one?
+- Have user-facing messages been checked for correctness?
+- Are there obvious errors that will stop this working in production?</p>
+]]></content>
+  </entry>
+  
+</feed>
