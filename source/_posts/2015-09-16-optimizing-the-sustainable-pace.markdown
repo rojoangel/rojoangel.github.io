@@ -8,7 +8,7 @@ hidden: true
 ---
 I've just read this post about [Optimizing the Sustainable Pace](https://blog.8thlight.com/paul-pagel/2015/09/15/optimize-sustainable-pace.html).
 
-This are notes to myself.
+These are notes to myself.
 
 > By doing the simplest thing that could possibly work, we’re exposing ourselves to the incidental complexity
 
