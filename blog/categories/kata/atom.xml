@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Kata | /trasteando/]]></title>
   <link href="http://rojoangel.github.io/blog/categories/kata/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-10-24T21:07:19+02:00</updated>
+  <updated>2015-10-24T23:49:18+02:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -12,6 +12,36 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Testing and Refactoring Legacy Code - by Sandro Mancuso]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/10/24/testing-and-refactoring-legacy-code/"/>
+    <updated>2015-10-24T23:38:16+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/10/24/testing-and-refactoring-legacy-code</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just watched this presentation by Sandro Mancuso about <a href="https://www.youtube.com/watch?v=_NnElPO5BU0">Testing and Refactoring Legacy Code</a>.</p>
+
+<p>In this video the <a href="https://github.com/sandromancuso/">trip-service-kata</a> is used.</p>
+
+<p>These are notes to myself taken while watching the video:</p>
+
+<ul>
+<li>Wrap code with tests before modifying it. If the code is not covered by tests perform IDE auto refactorings only.</li>
+<li>Start testing from the lower nesting level to the deepest.</li>
+<li>Start refactoring from the deepest nesting level to the shorter.</li>
+<li>In the case of static methods, singletons or instances being created inside a method: create seams to make code testable. Seams can be overriden in order to obtain an intermediate testable class.</li>
+<li>When working with legacy code use code coverage in order to verify that your tests cover the code they are created for.</li>
+<li>Use builders to make tests more readable.</li>
+<li>Refactor staying on the green side of red-green-refactor cycle as much as you can.</li>
+<li>Try to convert conditionals to guards.</li>
+<li>Initially get rid of variables whenever possible without considering potential performance issues caused by calling methods multiple times. Variables can be reintroduced later on if needed.</li>
+<li>Your code should reflect the language in your tests if possible.</li>
+<li>The language in your tests and code should be the domain language.</li>
+<li>If the design is wrong - when adding tests we are perpetuating the wrong design!</li>
+<li>Wrap static methods in instance methods. In your code base start replacing static calls to instance calls, until the static call is not used anymore: then you can get rid of the static method.</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Are They the Same? Kata Java Solution]]></title>

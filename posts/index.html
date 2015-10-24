@@ -9,7 +9,7 @@
   <meta name="author" content="Angel Rojo">
 
   
-  <meta name="description" content="All Posts Design, Composition, and Performance - by Rich Hickey @ InfoQ I&rsquo;ve just watched this Rich Hickey&rsquo;s keynote about Design, &hellip;">
+  <meta name="description" content="All Posts Testing and Refactoring Legacy Code - by Sandro Mancuso I&rsquo;ve just watched this presentation by Sandro Mancuso about Testing and &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -111,6 +111,72 @@
 
   <div class="article-list">
     <div class="container">
+      
+      
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <article>
+  <h2><a href="/blog/2015/10/24/testing-and-refactoring-legacy-code/">Testing and Refactoring Legacy Code - by Sandro Mancuso</a></h2>
+  
+  <p>
+    <p>I&rsquo;ve just watched this presentation by Sandro Mancuso about <a href="https://www.youtube.com/watch?v=_NnElPO5BU0">Testing and Refactoring Legacy Code</a>.</p>
+
+
+
+
+<p>In this video the <a href="https://github.com/sandromancuso/">trip-service-kata</a> is used.</p>
+
+
+
+
+<p>These are notes to myself taken while watching the video:</p>
+
+
+
+
+<ul>
+<li>Wrap code with tests before modifying it. If the code is not covered by tests perform IDE auto refactorings only.</li>
+<li>Start testing from the lower nesting level to the deepest.</li>
+<li>Start refactoring from the deepest nesting level to the shorter.</li>
+<li>In the case of static methods, singletons or instances being created inside a method: create seams to make code testable. Seams can be overriden in order to obtain an intermediate testable class.</li>
+<li>When working with legacy code use code coverage in order to verify that your tests cover the code they are created for.</li>
+<li>Use builders to make tests more readable.</li>
+<li>Refactor staying on the green side of red-green-refactor cycle as much as you can.</li>
+<li>Try to convert conditionals to guards.</li>
+<li>Initially get rid of variables whenever possible without considering potential performance issues caused by calling methods multiple times. Variables can be reintroduced later on if needed.</li>
+<li>Your code should reflect the language in your tests if possible.</li>
+<li>The language in your tests and code should be the domain language.</li>
+<li>If the design is wrong - when adding tests we are perpetuating the wrong design!</li>
+<li>Wrap static methods in instance methods. In your code base start replacing static calls to instance calls, until the static call is not used anymore: then you can get rid of the static method.</li>
+</ul>
+
+
+
+
+  </p>
+  <span class="meta">
+    
+
+
+
+
+<time class='entry-date' datetime='2015-10-24T23:38:16+02:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>24</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>11:38 pm</span></time>
+    
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/kata/'>kata</a>, <a class='category' href='/blog/categories/legacy/'>legacy</a>, <a class='category' href='/blog/categories/presentation/'>presentation</a>, <a class='category' href='/blog/categories/reading/'>reading</a>, <a class='category' href='/blog/categories/refactoring/'>refactoring</a>
+  
+</span>
+
+
+  </span>
+
+  
+</article>
+
+        </div>
+      </div>
       
       
       <div class="row">

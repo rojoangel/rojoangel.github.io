@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Reading | /trasteando/]]></title>
-  <link href="http://rojoangel.github.io/blog/categories/reading/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Legacy | /trasteando/]]></title>
+  <link href="http://rojoangel.github.io/blog/categories/legacy/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
   <updated>2015-10-24T23:49:18+02:00</updated>
   <id>http://rojoangel.github.io/</id>
@@ -40,43 +40,6 @@
 <li>Wrap static methods in instance methods. In your code base start replacing static calls to instance calls, until the static call is not used anymore: then you can get rid of the static method.</li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Design, Composition, and Performance - by Rich Hickey @ InfoQ]]></title>
-    <link href="http://rojoangel.github.io/blog/2015/10/24/design/"/>
-    <updated>2015-10-24T20:51:11+02:00</updated>
-    <id>http://rojoangel.github.io/blog/2015/10/24/design</id>
-    <content type="html"><![CDATA[<p>I&rsquo;ve just watched this Rich Hickey&rsquo;s keynote about <a href="http://www.infoq.com/presentations/design-composition-performance-keynote">Design, Composition, and Performance</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Simple Made Easy - by Rich Hickey @ InfoQ]]></title>
-    <link href="http://rojoangel.github.io/blog/2015/10/24/simple-made-easy/"/>
-    <updated>2015-10-24T20:46:57+02:00</updated>
-    <id>http://rojoangel.github.io/blog/2015/10/24/simple-made-easy</id>
-    <content type="html"><![CDATA[<p>I&rsquo;ve just watched this Rich Hickey&rsquo;s presentation about <a href="http://www.infoq.com/presentations/Simple-Made-Easy">Simple Made Easy</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Extremely Defensive PHP - by Marco Pivetta @ PHPSW: Coding Practices, June 2015]]></title>
-    <link href="http://rojoangel.github.io/blog/2015/10/22/extremely-defensive-php/"/>
-    <updated>2015-10-22T09:01:09+02:00</updated>
-    <id>http://rojoangel.github.io/blog/2015/10/22/extremely-defensive-php</id>
-    <content type="html"><![CDATA[<p>I&rsquo;ve just watched this Marco Pivetta&rsquo;s presentation about <a href="https://www.youtube.com/watch?v=8d2AtAGJPno">Extremely Defensive PHP</a>.
-The sides can be found <a href="http://ocramius.github.io/extremely-defensive-php/#/">here</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Things I Was Unprepared for as a Lead Developer - by Pascal De Vink @ Dev-human]]></title>
-    <link href="http://rojoangel.github.io/blog/2015/09/27/things-i-was-unprepared-for-as-a-lead-developer/"/>
-    <updated>2015-09-27T23:49:36+02:00</updated>
-    <id>http://rojoangel.github.io/blog/2015/09/27/things-i-was-unprepared-for-as-a-lead-developer</id>
-    <content type="html"><![CDATA[<p>I&rsquo;ve just read this post about <a href="http://dev-human.com/entries/2015/09/07/things-i-was-unprepared-for/">Things I was unprepared for as a lead developer</a></p>
 ]]></content>
   </entry>
   
