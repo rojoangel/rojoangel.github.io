@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Design"
+date: 2015-10-24 20:51:11 +0200
+comments: true
+categories: [reading, presentation, rich hickey, design]
+hidden: true
+---
+I've just watched this Rich Hickey's keynote about [Design, Composition, and Performance](http://www.infoq.com/presentations/design-composition-performance-keynote).
