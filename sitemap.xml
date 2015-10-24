@@ -9,6 +9,10 @@
     <lastmod>2015-10-24T20:46:57+02:00</lastmod>
   </url>
   <url>
+    <loc>http://rojoangel.github.io/blog/2015/10/22/extremely-defensive-php/</loc>
+    <lastmod>2015-10-22T09:01:09+02:00</lastmod>
+  </url>
+  <url>
     <loc>http://rojoangel.github.io/blog/2015/09/27/things-i-was-unprepared-for-as-a-lead-developer/</loc>
     <lastmod>2015-09-27T23:49:36+02:00</lastmod>
   </url>
@@ -155,12 +159,12 @@
     <loc>http://rojoangel.github.io/blog/categories/career/</loc>
   </url>
   <url>
+    <loc>http://rojoangel.github.io/blog/categories/design/</loc>
+  </url>
+  <url>
     <loc>http://rojoangel.github.io/blog/categories/rich-hickey/</loc>
   </url>
   <url>
     <loc>http://rojoangel.github.io/blog/categories/simplicity/</loc>
-  </url>
-  <url>
-    <loc>http://rojoangel.github.io/blog/categories/design/</loc>
   </url>
 </urlset>

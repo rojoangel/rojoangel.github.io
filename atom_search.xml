@@ -4,7 +4,7 @@
   <title><![CDATA[/trasteando/]]></title>
   <link href="http://rojoangel.github.io/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-10-24T20:56:28+02:00</updated>
+  <updated>2015-10-24T21:07:19+02:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -30,6 +30,17 @@
     <updated>2015-10-24T20:46:57+02:00</updated>
     <id>http://rojoangel.github.io/blog/2015/10/24/simple-made-easy</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve just watched this Rich Hickey&rsquo;s presentation about <a href="http://www.infoq.com/presentations/Simple-Made-Easy">Simple Made Easy</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Extremely Defensive PHP - by Marco Pivetta @ PHPSW: Coding Practices, June 2015]]></title>
+    <summary><![CDATA[]]></summary>
+    <link href="http://rojoangel.github.io/blog/2015/10/22/extremely-defensive-php/"/>
+    <updated>2015-10-22T09:01:09+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/10/22/extremely-defensive-php</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just watched this Marco Pivetta&rsquo;s presentation about <a href="https://www.youtube.com/watch?v=8d2AtAGJPno">Extremely Defensive PHP</a>.
+The sides can be found <a href="http://ocramius.github.io/extremely-defensive-php/#/">here</a></p>
 ]]></content>
   </entry>
   
