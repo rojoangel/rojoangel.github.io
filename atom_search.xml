@@ -4,7 +4,7 @@
   <title><![CDATA[/trasteando/]]></title>
   <link href="http://rojoangel.github.io/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-09-27T23:59:41+02:00</updated>
+  <updated>2015-10-24T20:53:15+02:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Design]]></title>
+    <summary><![CDATA[]]></summary>
+    <link href="http://rojoangel.github.io/blog/2015/10/24/design/"/>
+    <updated>2015-10-24T20:51:11+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/10/24/design</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just watched this Rich Hickey&rsquo;s keynote about <a href="http://www.infoq.com/presentations/design-composition-performance-keynote">Design, Composition, and Performance</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Simple Made Easy - by Rich Hickey @ InfoQ]]></title>
+    <summary><![CDATA[]]></summary>
+    <link href="http://rojoangel.github.io/blog/2015/10/24/simple-made-easy/"/>
+    <updated>2015-10-24T20:46:57+02:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/10/24/simple-made-easy</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just watched this Rich Hickey&rsquo;s presentation about <a href="http://www.infoq.com/presentations/Simple-Made-Easy">Simple Made Easy</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Things I was unprepared for as a lead developer - by  Pascal de Vink @ dev-human]]></title>
