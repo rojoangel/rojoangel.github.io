@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Design"
+title: "Design, Composition, and Performance - by Rich Hickey @ InfoQ"
 date: 2015-10-24 20:51:11 +0200
 comments: true
 categories: [reading, presentation, rich hickey, design]
