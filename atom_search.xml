@@ -4,7 +4,7 @@
   <title><![CDATA[/trasteando/]]></title>
   <link href="http://rojoangel.github.io/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-10-24T23:49:18+02:00</updated>
+  <updated>2015-10-24T23:51:30+02:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -21,7 +21,7 @@
     <id>http://rojoangel.github.io/blog/2015/10/24/testing-and-refactoring-legacy-code</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve just watched this presentation by Sandro Mancuso about <a href="https://www.youtube.com/watch?v=_NnElPO5BU0">Testing and Refactoring Legacy Code</a>.</p>
 
-<p>In this video the <a href="https://github.com/sandromancuso/">trip-service-kata</a> is used.</p>
+<p>In this video the <a href="https://github.com/sandromancuso/trip-service-kata">trip-service-kata</a> is used.</p>
 
 <p>These are notes to myself taken while watching the video:</p>
 
