@@ -8,7 +8,7 @@ hidden: true
 ---
 I've just watched this presentation by Sandro Mancuso about [Testing and Refactoring Legacy Code](https://www.youtube.com/watch?v=_NnElPO5BU0).
 
-In this video the [trip-service-kata](https://github.com/sandromancuso/) is used.
+In this video the [trip-service-kata](https://github.com/sandromancuso/trip-service-kata) is used.
 
 These are notes to myself taken while watching the video:
 
