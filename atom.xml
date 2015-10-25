@@ -4,7 +4,7 @@
   <title><![CDATA[/trasteando/]]></title>
   <link href="http://rojoangel.github.io/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-10-24T23:51:30+02:00</updated>
+  <updated>2015-10-25T10:44:13+01:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Masterclass - Dobles De Test - by Xavi Gost @ Devscola]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/10/25/masterclass-dobles-de-test/"/>
+    <updated>2015-10-25T10:34:41+01:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/10/25/masterclass-dobles-de-test</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just watched this presentation by Xavi Gost about <a href="https://www.youtube.com/watch?v=S4Ueg64xfXQ">Masterclass - Dobles de Test</a>.</p>
+
+<p>These are notes to myself taken while watching the video:</p>
+
+<ul>
+<li>The type of test double to use should be dictated by the intention of use.</li>
+<li>Test doubles:
+
+<ul>
+<li>Dummy: we only need it to be present.</li>
+<li>Stub: returns fixed values.</li>
+<li>Mock: more complex scenarios.</li>
+</ul>
+</li>
+<li>Mocks are evil. When using a mock you are acknowledging a lack of ability / know-how in the design / architecture.</li>
+<li>Mocks introduce complexity in a part of system (tests) that doesn&rsquo;t deliver value to the customer.</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Testing and Refactoring Legacy Code - by Sandro Mancuso]]></title>
@@ -838,15 +864,6 @@ The sides can be found <a href="http://ocramius.github.io/extremely-defensive-ph
     <updated>2015-09-01T00:51:36+02:00</updated>
     <id>http://rojoangel.github.io/blog/2015/09/01/does-my-bus-look-big-in-this</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve just watched this presentation by Martin Fowler and Jim Webber about enterprise integration architectures: <a href="http://www.infoq.com/presentations/soa-without-esb">Does My Bus Look Big in This?</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Program Like a Debater: Character, Commitment, Team Work, Hard Work - by Rob Mulholand @ 8th Light]]></title>
-    <link href="http://rojoangel.github.io/blog/2015/08/30/reading-program-like-a-debater-character/"/>
-    <updated>2015-08-30T21:29:00+02:00</updated>
-    <id>http://rojoangel.github.io/blog/2015/08/30/reading-program-like-a-debater-character</id>
-    <content type="html"><![CDATA[<p>I&rsquo;ve just read this post talking about habits of excellence and continuous improvement: <a href="https://blog.8thlight.com/rob-mulholand/2015/08/28/program-like-debater.html">Program Like a Debater: Character, Commitment, Team Work, Hard Work</a></p>
 ]]></content>
   </entry>
   

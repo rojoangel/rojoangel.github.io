@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://rojoangel.github.io/blog/2015/10/25/masterclass-dobles-de-test/</loc>
+    <lastmod>2015-10-25T10:34:41+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://rojoangel.github.io/blog/2015/10/24/testing-and-refactoring-legacy-code/</loc>
     <lastmod>2015-10-24T23:38:16+02:00</lastmod>
   </url>
@@ -176,5 +180,11 @@
   </url>
   <url>
     <loc>http://rojoangel.github.io/blog/categories/legacy/</loc>
+  </url>
+  <url>
+    <loc>http://rojoangel.github.io/blog/categories/test-doubles/</loc>
+  </url>
+  <url>
+    <loc>http://rojoangel.github.io/blog/categories/xavi-gost/</loc>
   </url>
 </urlset>

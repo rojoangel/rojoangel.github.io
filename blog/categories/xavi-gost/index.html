@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Testing and Refactoring Legacy Code - by Sandro Mancuso - /trasteando/</title>
+  <title>Category: Xavi Gost - /trasteando/</title>
   <meta name="author" content="Angel Rojo">
 
   
-  <meta name="description" content="I&rsquo;ve just watched this presentation by Sandro Mancuso about Testing and Refactoring Legacy Code. In this video the trip-service-kata is used. &hellip;">
+  <meta name="description" content="Category: xavi gost">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://rojoangel.github.io/blog/2015/10/24/testing-and-refactoring-legacy-code">
+  <link rel="canonical" href="http://rojoangel.github.io/blog/categories/xavi-gost">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="/trasteando/" type="application/atom+xml">
@@ -101,108 +101,46 @@
   <div id="main">
     <div id="content">
       <div>
-<article class="hentry" role="article">
+<article role="article">
   
   <header>
-    
-      
-        <h1 class="entry-title">Testing and Refactoring Legacy Code - by Sandro Mancuso</h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-10-24T23:38:16+02:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>24</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>11:38 pm</span></time>
-        
-        
-      </p>
+    <h1 class="entry-title">Category: Xavi Gost</h1>
     
   </header>
+  
+  <div id="blog-archives" class="category">
 
 
-<div class="entry-content"><p>I&rsquo;ve just watched this presentation by Sandro Mancuso about <a href="https://www.youtube.com/watch?v=_NnElPO5BU0">Testing and Refactoring Legacy Code</a>.</p>
 
-<p>In this video the <a href="https://github.com/sandromancuso/trip-service-kata">trip-service-kata</a> is used.</p>
+  
+  <h2>2015</h2>
 
-<p>These are notes to myself taken while watching the video:</p>
+<article>
+  
+<h1><a href="/blog/2015/10/25/masterclass-dobles-de-test/">Masterclass - Dobles De Test - by Xavi Gost @ Devscola</a></h1>
+<time datetime="2015-10-25T10:34:41+01:00" pubdate><span class='month'>Oct</span> <span class='day'>25</span> <span class='year'>2015</span></time>
 
-<ul>
-<li>Wrap code with tests before modifying it. If the code is not covered by tests perform IDE auto refactorings only.</li>
-<li>Start testing from the lower nesting level to the deepest.</li>
-<li>Start refactoring from the deepest nesting level to the shorter.</li>
-<li>In the case of static methods, singletons or instances being created inside a method: create seams to make code testable. Seams can be overriden in order to obtain an intermediate testable class.</li>
-<li>When working with legacy code use code coverage in order to verify that your tests cover the code they are created for.</li>
-<li>Use builders to make tests more readable.</li>
-<li>Refactor staying on the green side of red-green-refactor cycle as much as you can.</li>
-<li>Try to convert conditionals to guards.</li>
-<li>Initially get rid of variables whenever possible without considering potential performance issues caused by calling methods multiple times. Variables can be reintroduced later on if needed.</li>
-<li>Your code should reflect the language in your tests if possible.</li>
-<li>The language in your tests and code should be the domain language.</li>
-<li>If the design is wrong - when adding tests we are perpetuating the wrong design!</li>
-<li>Wrap static methods in instance methods. In your code base start replacing static calls to instance calls, until the static call is not used anymore: then you can get rid of the static method.</li>
-</ul>
+<footer>
+  <span class="categories">posted in <a class='category' href='/blog/categories/presentation/'>presentation</a>, <a class='category' href='/blog/categories/reading/'>reading</a>, <a class='category' href='/blog/categories/tdd/'>tdd</a>, <a class='category' href='/blog/categories/test-doubles/'>test doubles</a>, <a class='category' href='/blog/categories/xavi-gost/'>xavi gost</a></span>
+</footer>
+
+
+</article>
 
 </div>
 
-
-  <footer>
-    <p class="meta">
-      
   
-
-
-
-  <span class="byline author vcard">Authored by <span class="fn">
-  
-    Angel Rojo
-  
-  </span></span>
-
-
-      
-
-
-
-
-<time class='entry-date' datetime='2015-10-24T23:38:16+02:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>24</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>11:38 pm</span></time>
-      
-      
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/kata/'>kata</a>, <a class='category' href='/blog/categories/legacy/'>legacy</a>, <a class='category' href='/blog/categories/presentation/'>presentation</a>, <a class='category' href='/blog/categories/reading/'>reading</a>, <a class='category' href='/blog/categories/refactoring/'>refactoring</a>
-  
-</span>
-
-
-    </p>
-    
-      <div class="sharing">
-  
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://rojoangel.github.io/blog/2015/10/24/testing-and-refactoring-legacy-code/" data-via="rojo_angel" data-counturl="http://rojoangel.github.io/blog/2015/10/24/testing-and-refactoring-legacy-code/" >Tweet</a>
-  
-  
-  
-</div>
-
-    
-    <p class="meta">
-      
-        <a class="basic-alignment left" href="/blog/2015/10/24/design/" title="Previous Post: Design, Composition, and Performance - by Rich Hickey @ InfoQ">&laquo; Design, Composition, and Performance - by Rich Hickey @ InfoQ</a>
-      
-      
-        <a class="basic-alignment right" href="/blog/2015/10/25/masterclass-dobles-de-test/" title="Next Post: Masterclass - Dobles de Test - by Xavi Gost @ Devscola">Masterclass - Dobles de Test - by Xavi Gost @ Devscola &raquo;</a>
-      
-    </p>
-  </footer>
 </article>
 
 
 </div>
+
+<aside class="sidebar">
+  
+    
+  
+</aside>
+
 
     </div>
   </div>

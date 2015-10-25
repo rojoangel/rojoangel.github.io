@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Tdd | /trasteando/]]></title>
   <link href="http://rojoangel.github.io/blog/categories/tdd/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-10-24T23:51:30+02:00</updated>
+  <updated>2015-10-25T10:44:13+01:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Masterclass - Dobles De Test - by Xavi Gost @ Devscola]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/10/25/masterclass-dobles-de-test/"/>
+    <updated>2015-10-25T10:34:41+01:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/10/25/masterclass-dobles-de-test</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just watched this presentation by Xavi Gost about <a href="https://www.youtube.com/watch?v=S4Ueg64xfXQ">Masterclass - Dobles de Test</a>.</p>
+
+<p>These are notes to myself taken while watching the video:</p>
+
+<ul>
+<li>The type of test double to use should be dictated by the intention of use.</li>
+<li>Test doubles:
+
+<ul>
+<li>Dummy: we only need it to be present.</li>
+<li>Stub: returns fixed values.</li>
+<li>Mock: more complex scenarios.</li>
+</ul>
+</li>
+<li>Mocks are evil. When using a mock you are acknowledging a lack of ability / know-how in the design / architecture.</li>
+<li>Mocks introduce complexity in a part of system (tests) that doesn&rsquo;t deliver value to the customer.</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mocks vs. Stubs - It Has Nothing to Do With the Implementation - by Jason Gorman @ Software People Inspiring]]></title>
