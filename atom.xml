@@ -4,7 +4,7 @@
   <title><![CDATA[/trasteando/]]></title>
   <link href="http://rojoangel.github.io/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-10-25T12:32:27+01:00</updated>
+  <updated>2015-10-25T12:38:09+01:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[TestDouble - by Martin Fowler @ Bliki]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/10/25/testdouble/"/>
+    <updated>2015-10-25T12:34:44+01:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/10/25/testdouble</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just read this post by Martin Fowler about <a href="http://www.martinfowler.com/bliki/TestDouble.html">TestDouble</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Masterclass - Dobles De Test - by Xavi Gost @ Devscola]]></title>
@@ -858,15 +867,6 @@ The sides can be found <a href="http://ocramius.github.io/extremely-defensive-ph
     <content type="html"><![CDATA[<p>I’ve just read this post talking about some facilitations to enable team members to get to know them better: <a href="http://brendanmarsh.com/agile/bootstrapping-an-agile-team-part-1-people/">Bootstrapping an Agile Team [Part 1 – People]</a></p>
 
 <p>Looking forward to read parts 2 &amp; 3.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Does My Bus Look Big in This? - by Martin Fowler & Jim Webber @ Infoq]]></title>
-    <link href="http://rojoangel.github.io/blog/2015/09/01/does-my-bus-look-big-in-this/"/>
-    <updated>2015-09-01T00:51:36+02:00</updated>
-    <id>http://rojoangel.github.io/blog/2015/09/01/does-my-bus-look-big-in-this</id>
-    <content type="html"><![CDATA[<p>I&rsquo;ve just watched this presentation by Martin Fowler and Jim Webber about enterprise integration architectures: <a href="http://www.infoq.com/presentations/soa-without-esb">Does My Bus Look Big in This?</a></p>
 ]]></content>
   </entry>
   

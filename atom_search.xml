@@ -4,7 +4,7 @@
   <title><![CDATA[/trasteando/]]></title>
   <link href="http://rojoangel.github.io/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-10-25T12:32:27+01:00</updated>
+  <updated>2015-10-25T12:38:09+01:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -12,6 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[TestDouble - by Martin Fowler @ Bliki]]></title>
+    <summary><![CDATA[]]></summary>
+    <link href="http://rojoangel.github.io/blog/2015/10/25/testdouble/"/>
+    <updated>2015-10-25T12:34:44+01:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/10/25/testdouble</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just read this post by Martin Fowler about <a href="http://www.martinfowler.com/bliki/TestDouble.html">TestDouble</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Masterclass - Dobles de Test - by Xavi Gost @ Devscola]]></title>
