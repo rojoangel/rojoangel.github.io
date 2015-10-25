@@ -4,7 +4,7 @@
   <title><![CDATA[/trasteando/]]></title>
   <link href="http://rojoangel.github.io/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-10-25T12:39:41+01:00</updated>
+  <updated>2015-10-25T17:51:11+01:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -12,6 +12,40 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Going Polyglot the Easy Way - by Wojciech Ogrodowczyk @ SCBCN15]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/10/25/going-polyglot-the-easy-way/"/>
+    <updated>2015-10-25T17:39:51+01:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/10/25/going-polyglot-the-easy-way</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just watched this presentation by Wojciech Ogrodowczyk about <a href="https://www.youtube.com/watch?v=WWLnsrIpek8">Going Polyglot the Easy Way</a>.</p>
+
+<p>The slides used during the presentation can be found <a href="https://speakerdeck.com/sharnik/going-polyglot-the-easy-way">here</a>.</p>
+
+<p>These are notes to myself taken while watching the presentation:</p>
+
+<ul>
+<li>It&rsquo;s better if you can use the language you are learning in your daily job than spending time om evenings and weekends.</li>
+<li>Look an opportunity to introduce the new language in your job.</li>
+<li>Use benchmarks to prove that the language fits the job.</li>
+<li>Do small changes: show results fast / throw away code</li>
+<li>Internal tool is a good place to start: issues will be reported / users will be forgiving</li>
+<li>Short-live code (i.e. migration code) is another good place to start.</li>
+<li>Do not mess around with mission critical systems</li>
+<li>Some places where introduce the new language:
+
+<ul>
+<li>Publish / Subscribe</li>
+<li>SOA</li>
+</ul>
+</li>
+<li>Learn something outside of your comfort zone: i.e. if you are used to backend learn a front end language (ELM, Clojurescript)</li>
+<li>ELM has &ldquo;time travel&rdquo; capabilities: you can record sessions &amp; reply it later: debugging / triaging</li>
+<li>Fix vs Growth mindset</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[TestDouble - by Martin Fowler @ Bliki]]></title>
@@ -856,17 +890,6 @@ The sides can be found <a href="http://ocramius.github.io/extremely-defensive-ph
 <li><a href="https://github.com/rojoangel/codewars/blob/master/java/are-they-the-same/tests/AreSameTest.java">AreSameTest.java</a></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bootstrapping an Agile Team [Part 1 – People] - by Brendan Marsh]]></title>
-    <link href="http://rojoangel.github.io/blog/2015/09/02/bootstrapping-an-agile-team-part-1-people/"/>
-    <updated>2015-09-02T00:22:36+02:00</updated>
-    <id>http://rojoangel.github.io/blog/2015/09/02/bootstrapping-an-agile-team-part-1-people</id>
-    <content type="html"><![CDATA[<p>I’ve just read this post talking about some facilitations to enable team members to get to know them better: <a href="http://brendanmarsh.com/agile/bootstrapping-an-agile-team-part-1-people/">Bootstrapping an Agile Team [Part 1 – People]</a></p>
-
-<p>Looking forward to read parts 2 &amp; 3.</p>
 ]]></content>
   </entry>
   

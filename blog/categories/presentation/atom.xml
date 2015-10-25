@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Presentation | /trasteando/]]></title>
   <link href="http://rojoangel.github.io/blog/categories/presentation/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-10-25T12:39:41+01:00</updated>
+  <updated>2015-10-25T17:51:11+01:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -12,6 +12,40 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Going Polyglot the Easy Way - by Wojciech Ogrodowczyk @ SCBCN15]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/10/25/going-polyglot-the-easy-way/"/>
+    <updated>2015-10-25T17:39:51+01:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/10/25/going-polyglot-the-easy-way</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just watched this presentation by Wojciech Ogrodowczyk about <a href="https://www.youtube.com/watch?v=WWLnsrIpek8">Going Polyglot the Easy Way</a>.</p>
+
+<p>The slides used during the presentation can be found <a href="https://speakerdeck.com/sharnik/going-polyglot-the-easy-way">here</a>.</p>
+
+<p>These are notes to myself taken while watching the presentation:</p>
+
+<ul>
+<li>It&rsquo;s better if you can use the language you are learning in your daily job than spending time om evenings and weekends.</li>
+<li>Look an opportunity to introduce the new language in your job.</li>
+<li>Use benchmarks to prove that the language fits the job.</li>
+<li>Do small changes: show results fast / throw away code</li>
+<li>Internal tool is a good place to start: issues will be reported / users will be forgiving</li>
+<li>Short-live code (i.e. migration code) is another good place to start.</li>
+<li>Do not mess around with mission critical systems</li>
+<li>Some places where introduce the new language:
+
+<ul>
+<li>Publish / Subscribe</li>
+<li>SOA</li>
+</ul>
+</li>
+<li>Learn something outside of your comfort zone: i.e. if you are used to backend learn a front end language (ELM, Clojurescript)</li>
+<li>ELM has &ldquo;time travel&rdquo; capabilities: you can record sessions &amp; reply it later: debugging / triaging</li>
+<li>Fix vs Growth mindset</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Masterclass - Dobles De Test - by Xavi Gost @ Devscola]]></title>
@@ -87,16 +121,6 @@
     <updated>2015-10-24T20:46:57+02:00</updated>
     <id>http://rojoangel.github.io/blog/2015/10/24/simple-made-easy</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve just watched this Rich Hickey&rsquo;s presentation about <a href="http://www.infoq.com/presentations/Simple-Made-Easy">Simple Made Easy</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Extremely Defensive PHP - by Marco Pivetta @ PHPSW: Coding Practices, June 2015]]></title>
-    <link href="http://rojoangel.github.io/blog/2015/10/22/extremely-defensive-php/"/>
-    <updated>2015-10-22T09:01:09+02:00</updated>
-    <id>http://rojoangel.github.io/blog/2015/10/22/extremely-defensive-php</id>
-    <content type="html"><![CDATA[<p>I&rsquo;ve just watched this Marco Pivetta&rsquo;s presentation about <a href="https://www.youtube.com/watch?v=8d2AtAGJPno">Extremely Defensive PHP</a>.
-The sides can be found <a href="http://ocramius.github.io/extremely-defensive-php/#/">here</a></p>
 ]]></content>
   </entry>
   
