@@ -17,3 +17,6 @@ These are notes to myself taken while watching the video:
   - Mock: more complex scenarios.
 - Mocks are evil. When using a mock you are acknowledging a lack of ability / know-how in the design / architecture.
 - Mocks introduce complexity in a part of system (tests) that doesn't deliver value to the customer.
+
+Here's a mind map of the references used in this presentation:
+[{% img center  https://raw.githubusercontent.com/rojoangel/mindmup-maps/df150730b51d386066cd08423b125b77cab34580/masterclass_dobles_de_test.png %}](https://atlas.mindmup.com/2015/10/fc0c3b005d340133db4d4147ed4fb840/masterclass_dobles_de_test/index.html)
