@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Reading | /trasteando/]]></title>
   <link href="http://rojoangel.github.io/blog/categories/reading/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-10-25T10:44:13+01:00</updated>
+  <updated>2015-10-25T12:32:27+01:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -36,6 +36,9 @@
 <li>Mocks introduce complexity in a part of system (tests) that doesn&rsquo;t deliver value to the customer.</li>
 </ul>
 
+
+<p>Here&rsquo;s a mind map of the references used in this presentation:
+<a href="https://atlas.mindmup.com/2015/10/fc0c3b005d340133db4d4147ed4fb840/masterclass_dobles_de_test/index.html"><img class="center" src="https://raw.githubusercontent.com/rojoangel/mindmup-maps/df150730b51d386066cd08423b125b77cab34580/masterclass_dobles_de_test.png"></a></p>
 ]]></content>
   </entry>
   
