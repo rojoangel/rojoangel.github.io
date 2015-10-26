@@ -134,12 +134,22 @@
 
 
 
-<p>Events used to achieve eventual consistency across distributed services / datastores:
-- Microservices publish events when state changes
-- Microservices subscribe to events
-  - maintain eventual consistency (multiple aggregates in multiple datastores)
-  - synchronize replicated data
-- An event needs to be published atomically every time a domain entity changes its state</p>
+<p>Events used to achieve eventual consistency across distributed services / datastores:</p>
+
+
+
+
+<ul>
+<li>Microservices publish events when state changes</li>
+<li>Microservices subscribe to events
+
+<ul>
+<li>maintain eventual consistency (multiple aggregates in multiple datastores)</li>
+<li>synchronize replicated data</li>
+</ul>
+</li>
+<li>An event needs to be published atomically every time a domain entity changes its state</li>
+</ul>
 
 
 
@@ -154,29 +164,53 @@
 
 
 
-<p>Optimize by using snapshots
-- serialize a memento of the aggregate
-- load latest snapshot + subsequent events</p>
+<p>Optimize by using snapshots:</p>
 
 
 
 
-<p>Business benefits of event sourcing:
-- built-in audit log
-- enables temporal queries
-- preserved history</p>
+<ul>
+<li>serialize a memento of the aggregate</li>
+<li>load latest snapshot + subsequent events</li>
+</ul>
 
 
 
 
-<p>Technical benefits:
-- No more O/R mapping - we are just persisting events</p>
+<p>Business benefits of event sourcing:</p>
 
 
 
 
-<p>Drawbacks:
-- Handling duplicate events / out-of-order</p>
+<ul>
+<li>built-in audit log</li>
+<li>enables temporal queries</li>
+<li>preserved history</li>
+</ul>
+
+
+
+
+<p>Technical benefits:</p>
+
+
+
+
+<ul>
+<li>No more O/R mapping - we are just persisting events</li>
+</ul>
+
+
+
+
+<p>Drawbacks:</p>
+
+
+
+
+<ul>
+<li>Handling duplicate events / out-of-order</li>
+</ul>
 
 
 
