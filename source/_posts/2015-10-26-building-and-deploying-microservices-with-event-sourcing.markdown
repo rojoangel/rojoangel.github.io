@@ -13,6 +13,7 @@ These are notes to myself taken while watching the presentation:
 Monolithic apps lock you in the technology you choose at the beginning of the project.
 
 Events used to achieve eventual consistency across distributed services / datastores:
+
 - Microservices publish events when state changes
 - Microservices subscribe to events
   - maintain eventual consistency (multiple aggregates in multiple datastores)
@@ -23,19 +24,23 @@ Event sourcing: for each aggregate persist the events that lead to a particular 
 
 Persisting events: json is a good choice because of its loose mapping mechanism
 
-Optimize by using snapshots
+Optimize by using snapshots:
+
 - serialize a memento of the aggregate
 - load latest snapshot + subsequent events
 
 Business benefits of event sourcing:
+
 - built-in audit log
 - enables temporal queries
 - preserved history
 
 Technical benefits:
+
 - No more O/R mapping - we are just persisting events
 
 Drawbacks:
+
 - Handling duplicate events / out-of-order
 
 Think of a microservice as a DDD aggregate
