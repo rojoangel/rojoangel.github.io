@@ -9,7 +9,7 @@
   <meta name="author" content="Angel Rojo">
 
   
-  <meta name="description" content="All Posts Going Polyglot the Easy Way - by Wojciech Ogrodowczyk @ SCBCN15 I&rsquo;ve just watched this presentation by Wojciech Ogrodowczyk about &hellip;">
+  <meta name="description" content="All Posts Building and Deploying Microservices With Event Sourcing - by Chris Richardson @ InfoQ I&rsquo;ve just watched this presentation by Chris &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -111,6 +111,113 @@
 
   <div class="article-list">
     <div class="container">
+      
+      
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <article>
+  <h2><a href="/blog/2015/10/26/building-and-deploying-microservices-with-event-sourcing/">Building and Deploying Microservices With Event Sourcing - by Chris Richardson @ InfoQ</a></h2>
+  
+  <p>
+    <p>I&rsquo;ve just watched this presentation by Chris Richardson about <a href="http://www.infoq.com/presentations/microservices-docker-cqrs">Building and Deploying Microservices with Event Sourcing</a>.</p>
+
+
+
+
+<p>These are notes to myself taken while watching the presentation:</p>
+
+
+
+
+<p>Monolithic apps lock you in the technology you choose at the beginning of the project.</p>
+
+
+
+
+<p>Events used to achieve eventual consistency across distributed services / datastores:
+- Microservices publish events when state changes
+- Microservices subscribe to events
+  - maintain eventual consistency (multiple aggregates in multiple datastores)
+  - synchronize replicated data
+- An event needs to be published atomically every time a domain entity changes its state</p>
+
+
+
+
+<p>Event sourcing: for each aggregate persist the events that lead to a particular state instead of the state itself</p>
+
+
+
+
+<p>Persisting events: json is a good choice because of its loose mapping mechanism</p>
+
+
+
+
+<p>Optimize by using snapshots
+- serialize a memento of the aggregate
+- load latest snapshot + subsequent events</p>
+
+
+
+
+<p>Business benefits of event sourcing:
+- built-in audit log
+- enables temporal queries
+- preserved history</p>
+
+
+
+
+<p>Technical benefits:
+- No more O/R mapping - we are just persisting events</p>
+
+
+
+
+<p>Drawbacks:
+- Handling duplicate events / out-of-order</p>
+
+
+
+
+<p>Think of a microservice as a DDD aggregate</p>
+
+
+
+
+<p>For view requests use CQRS &amp; denormalized views</p>
+
+
+
+
+<p>Use an Event Archiver that subscribes to all events: enables analytics.</p>
+
+
+  </p>
+  <span class="meta">
+    
+
+
+
+
+<time class='entry-date' datetime='2015-10-26T22:53:00+01:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>26</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>10:53 pm</span></time>
+    
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/cqrs/'>cqrs</a>, <a class='category' href='/blog/categories/docker/'>docker</a>, <a class='category' href='/blog/categories/event/'>event</a>, <a class='category' href='/blog/categories/event-sourcing/'>event sourcing</a>, <a class='category' href='/blog/categories/presentation/'>presentation</a>, <a class='category' href='/blog/categories/reading/'>reading</a>
+  
+</span>
+
+
+  </span>
+
+  
+</article>
+
+        </div>
+      </div>
       
       
       <div class="row">

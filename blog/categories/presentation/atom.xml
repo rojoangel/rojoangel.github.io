@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Presentation | /trasteando/]]></title>
   <link href="http://rojoangel.github.io/blog/categories/presentation/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2015-10-25T17:51:11+01:00</updated>
+  <updated>2015-10-26T22:59:34+01:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -12,6 +12,51 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Building and Deploying Microservices With Event Sourcing - by Chris Richardson @ InfoQ]]></title>
+    <link href="http://rojoangel.github.io/blog/2015/10/26/building-and-deploying-microservices-with-event-sourcing/"/>
+    <updated>2015-10-26T22:53:00+01:00</updated>
+    <id>http://rojoangel.github.io/blog/2015/10/26/building-and-deploying-microservices-with-event-sourcing</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just watched this presentation by Chris Richardson about <a href="http://www.infoq.com/presentations/microservices-docker-cqrs">Building and Deploying Microservices with Event Sourcing</a>.</p>
+
+<p>These are notes to myself taken while watching the presentation:</p>
+
+<p>Monolithic apps lock you in the technology you choose at the beginning of the project.</p>
+
+<p>Events used to achieve eventual consistency across distributed services / datastores:
+- Microservices publish events when state changes
+- Microservices subscribe to events
+  - maintain eventual consistency (multiple aggregates in multiple datastores)
+  - synchronize replicated data
+- An event needs to be published atomically every time a domain entity changes its state</p>
+
+<p>Event sourcing: for each aggregate persist the events that lead to a particular state instead of the state itself</p>
+
+<p>Persisting events: json is a good choice because of its loose mapping mechanism</p>
+
+<p>Optimize by using snapshots
+- serialize a memento of the aggregate
+- load latest snapshot + subsequent events</p>
+
+<p>Business benefits of event sourcing:
+- built-in audit log
+- enables temporal queries
+- preserved history</p>
+
+<p>Technical benefits:
+- No more O/R mapping - we are just persisting events</p>
+
+<p>Drawbacks:
+- Handling duplicate events / out-of-order</p>
+
+<p>Think of a microservice as a DDD aggregate</p>
+
+<p>For view requests use CQRS &amp; denormalized views</p>
+
+<p>Use an Event Archiver that subscribes to all events: enables analytics.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Going Polyglot the Easy Way - by Wojciech Ogrodowczyk @ SCBCN15]]></title>
@@ -112,15 +157,6 @@
     <updated>2015-10-24T20:51:11+02:00</updated>
     <id>http://rojoangel.github.io/blog/2015/10/24/design</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve just watched this Rich Hickey&rsquo;s keynote about <a href="http://www.infoq.com/presentations/design-composition-performance-keynote">Design, Composition, and Performance</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Simple Made Easy - by Rich Hickey @ InfoQ]]></title>
-    <link href="http://rojoangel.github.io/blog/2015/10/24/simple-made-easy/"/>
-    <updated>2015-10-24T20:46:57+02:00</updated>
-    <id>http://rojoangel.github.io/blog/2015/10/24/simple-made-easy</id>
-    <content type="html"><![CDATA[<p>I&rsquo;ve just watched this Rich Hickey&rsquo;s presentation about <a href="http://www.infoq.com/presentations/Simple-Made-Easy">Simple Made Easy</a>.</p>
 ]]></content>
   </entry>
   
