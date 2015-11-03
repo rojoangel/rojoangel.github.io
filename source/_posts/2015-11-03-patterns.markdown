@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Patterns, Code Smells & the Pragmatic Programmer - by Jason McCreary @ InfoQ"
+date: 2015-11-03 23:56:54 +0100
+comments: true
+categories: [reading, presentation, craftmanship, clean code]
+hidden: true
+published: false
+---
+I've just watched this presentation by Jason McCreary about [Patterns, Code Smells & the Pragmatic Programmer](http://www.infoq.com/presentations/the-reading-list).
+
+These are notes to myself taken while watching the presentation:
+
+- WIP
