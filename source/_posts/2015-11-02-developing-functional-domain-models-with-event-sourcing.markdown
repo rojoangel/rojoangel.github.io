@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Developing Functional Domain Models with Event Sourcing"
+title: "Developing Functional Domain Models with Event Sourcing - by Chris Richardson @ InfoQ"
 date: 2015-11-02 23:51:02 +0100
 comments: true
 categories: [reading, presentation, event, event sourcing, cqrs]
