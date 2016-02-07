@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Cas | /trasteando/]]></title>
+  <link href="http://rojoangel.github.io/blog/categories/cas/atom.xml" rel="self"/>
+  <link href="http://rojoangel.github.io/"/>
+  <updated>2016-02-07T12:36:13+01:00</updated>
+  <id>http://rojoangel.github.io/</id>
+  <author>
+    <name><![CDATA[Angel Rojo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[CAS 2015 Notes]]></title>
+    <link href="http://rojoangel.github.io/blog/2016/02/07/cas-2015-notes/"/>
+    <updated>2016-02-07T12:24:41+01:00</updated>
+    <id>http://rojoangel.github.io/blog/2016/02/07/cas-2015-notes</id>
+    <content type="html"><![CDATA[<h1>[KY] Eugenio Moliní</h1>
+
+<p>[idea] comuniredes de troyanos
+[ref] molini.es</p>
+
+<h1>[MS] Apertura - Carlos Ble</h1>
+
+<p>Don&rsquo;t ask for permission.
+Be the change you want to see.</p>
+
+<h1>[EP] Apertura - Aritz Suescun</h1>
+
+<p>[idea] The Design / Research Sprint
+Inception -> <a href="I" title="heart">book</a> The Agile Samurai
+[videos] Product Discovery -Marty Cagan</p>
+
+<h1>[EP] El sindrome de Niggle, la orientacion a objetos y la familia de Juan Carlos I - Gerard Chiva</h1>
+
+<p>Design = Do the minimum to maximize impact
+Integrate changes &amp; failures in your product
+[quote] &ldquo;Una obra no se completa nunca, solo te lleva al limited de tus posibilidades&rdquo;</p>
+
+<h1>[MS] Continuous Delivery in a legacy environment - Peter Marshall</h1>
+
+<p>It is important to get instant feedback from production
+Use CI/CD to share a common vision
+1. Remove unnecessary human intervention
+2. Monitor / Quality gates / Steady state (know your steady state and alert when the system deviates from it)</p>
+
+<p>[ref] The Strangler Pattern - can be used to transform a monolith
+&lsquo;Devops&rsquo; and &lsquo;Tech Management&rsquo; are supporting teams at Planday company. Tech Mgmnr is kind of an architecture team. It is responsible of delivering the technical vision message.
+[tip] Simplicity: one thing at a time.</p>
+
+<h1>[DP] Viaje a lo desconocido: de lo que no soy a lo que soy - David Roncero</h1>
+
+<p>Taller</p>
+
+<h1>[EP] El arte de decir que no - Carlos Hernandez</h1>
+
+<p>Some justifications used to push features to the product:
+* Customer X is about to quit if we do not provide feature Y => Do not implement it if 95% of users do not use it, otherwise you&rsquo;ll end up with a Frankenstein
+* We can make it optional => The product may end up with a control panel like the Enterprise
+* There&rsquo;s nothing else planned => Better use the time to revisit features already implemented
+* Everybody wants this => Show me the numbers
+* Competitors have it => &hellip; yes, but do competitors love it?
+* Someone else will build it => Have clear the &ldquo;finish line&rdquo; of your product (product vision)</p>
+
+<p>Conclusions:
+* Have a clear vision of what you want to build
+* Talk to the users
+* Better the user to adapt to the product than the other way round
+* The user has to fall in love with what the product IS not with what the product COULD BE / WILL BE.
+* Benevolent dictatorship</p>
+
+<h1>[EP] El Big Data también el ágil (o debería) - Juan Tomás García</h1>
+
+<p>[ref] Kappa Architecture - Jay Kreps: <a href="https://github.com/milinda/kappa-architecture.com">https://github.com/milinda/kappa-architecture.com</a>
+The importance of Monitoring &amp; Logging</p>
+
+<h1>[EP] Un paso más allá del pair programming: diseñadores empotrados - Poun Studio</h1>
+
+<p>Enables better communication:
+* non violent communication
+* common vocabulary</p>
+
+<p>It enabled:
+* new ways to solve tasks
+* new tools: style guide</p>
+
+<h1>[EP] Design Thinking: the power to accept every challenge - Mariana Ivanova</h1>
+
+<p>The space: Freedom to explore &amp; try things
+The people: [ref] T-shape (broad soft skills &amp; deep expertise skills)
+The approach: Problem space => Solution space | Diverge -> Converge -> Diverge -> Converge</p>
+
+<p>Steps:
+1. UNDERSTAND (The challenge)
+Goal: Creative reframing => One direction
+2. OBSERVATION (The trap)
+Goal: Gain empathy
+Techniques: Interview: 5 whys &amp; Debrief after the meeting
+<a href="I" title="heart">book</a> Interviewing Users: How to Uncover Compelling    Insights - Steve Portigal
+3. DEFINE POINT OF VIEW (Agree on the problem to solve)
+Goal: Make sure you are working on the same problem
+Techniques:
+* Storytelling
+* Clustering
+* Create Persona
+* Define POV (= user + need + insight)
+Tips:
+* Do not design for everyone => one thing at a time
+* Do not confuse solutions with needs
+&mdash;&mdash;&ndash; PROBLEM SPACE ^ - SOLUTION SPACE v &mdash;&mdash;&ndash;
+4. IDEATE
+Techniques:
+* Brainstorming:
+<strong> Go for quantity
+</strong> Go for wild ideas
+** Defer judgement
+* [idea] Reverse Brainstorming
+[ref]  The Power of Bad Ideas - Steve Portigal
+5. PROTOTYPE (Fail early &amp; often - because it is easy &amp; fast)
+Techniques: [idea] dark horse prototype
+6. TEST
+Negative feedback is the best feedback
+<a href="I" title="heart">book</a> The Mom Test: How to Talk to Customers and Learn If Your Business Is a Good Idea When Everyone Is Lying to You - Rob Fitzpatrick
+7. ITERATE
+From Test get back to previous steps
+Every failure is essential to learning
+Find the kid inside yourself (open mind)
+DO NOT FALL in love with the process
+DO FALL in love with the problem</p>
+
+<h1>[KY] Leo Antoli</h1>
+
+<p>Correlation != Causation
+<a href="I" title="heart">book</a> Spurious Correlations - Tyler Vigen
+Cognitive biases
+The problem is software development usually is not a lack of resources, but a lack of knowledge
+[tip] Use better product monitoring &amp; exception handling
+[tip] small commints => to PRD continuously. If something broke:
+* easy to identify
+* easy to rollback
+[tool] screenhero.com
+Technical debt = conscious decision / you have to pay at some point != shitty code
+There&rsquo;s always tension between - and some equilibrium need to be found
+* build the right thing
+* build the thing right
+* build it fast
+[ref] The Standish Group - Chaos Report
+[tip] In meetings, first each one writes down its opinion in order to avoid being biased by the first person speaking
+[ref] No true scotsman fallacy
+Urgent vs Important
+[ref] Anecdotal evidence</p>
+
+<h1>[KY] Rachel Davies</h1>
+
+<p>Spend your own time learning more:
+* get insights on bad parts
+Use people who are happy to try out things
+* test the idea
+* don&rsquo;t wait for everybody to accept the idea
+Build time for learning
+Share what you have learned
+Involve everyone
+Rachel works at unruly.co, here are some insights on what they are doing:
+* CD: from workstation to PRD:
+<strong> no STG
+</strong> Automated tests</p>
+
+<ul>
+<li><p>20% time learning &amp; researching:
+<strong> learning is a currency (truly, they have notes)
+</strong> swap teams / organizations
+<strong> learn from PRD: monitoring
+</strong> pair &amp; mob programming:
+<strong><em> challenging pieces
+</em></strong> whenever agreement is needed
+** strandcast: research news. recorded</p></li>
+<li><p>sharing learning: [idea] use a speaking token</p></li>
+<li><p>retrospectives</p></li>
+<li><p>sit with your business</p></li>
+<li><p>coding dojos</p></li>
+<li><p>swap organizations:
+<strong> learn from each other
+</strong> exchange with other teams &amp; organizations</p></li>
+<li><p>take turns => share responsibilities</p></li>
+<li><p>track &amp; reflect: i.e. track that learning is happening (i.e. in a calendar everyone shows what they&rsquo;ve done during the week: refactor / backlog work / learning / mob-pair programming</p></li>
+</ul>
+
+
+<p>[tip] invest time learning more => then write &amp; present (i.e. about something you learned in CAS)</p>
+
+<p>Agile coach mission: encourage people to try what they want to do / achieve</p>
+
+<h1>[TO] Gestion del cambio y hacking cultural - Angel Medinilla</h1>
+
+<p>[tool] <a href="http://www.myhappyforce.com/">http://www.myhappyforce.com/</a> - measures employees happiness
+[ref] <a href="http://www.improvement21.com/">http://www.improvement21.com/</a>
+<a href="I" title="heart">book</a> Switch: How to Change Things When Change Is Hard – Chip Heath &amp; Dan Heath
+<a href="I" title="heart">book</a> Predictably Irrational: The Hidden Forces That Shape Our Decisions – Dan Ariely
+[video] charlas de Emilio Duró
+Herramientas para cambiar la cultura:
+* storytelling
+* small things, repeated 1k times
+* pain driven facilitation
+* [tool] <a href="https://www.hoshinplan.com/">https://www.hoshinplan.com/</a> => vision
+* use early adopters => not mandatory!
+* labs: 1 afternoon every 2 weeks
+* experiments => kaizen board
+* [idea] champion skeptic
+* [idea] agile corner / agile safari
+* script it
+* action triggers / existing habits</p>
+
+<h1>[DP] Soy Persona (no soy recurso) - David Fernández</h1>
+
+<p><a href="I" title="heart">book</a> Work Rules!: Insights from Inside Google That Will Transform How You Live and Lead – Laszlo Bock
+Company owners should build people</p>
+
+<p>Confidence is bidirectional:</p>
+
+<ul>
+<li><p>Freedom => Self-managed teams
+<strong> heterogenity
+</strong> fellowship: pair / mob programming
+<strong> leadership: different people can lead in different aspects
+</strong> interconnection</p></li>
+<li><p>Motivation => Engaged employees
+<strong> Goals
+</strong> Development
+<strong> Communication => feedback
+</strong> Investment</p></li>
+<li><p>Happiness => Happy &amp; Productive people
+<strong> Smile
+</strong> Concilliation
+<strong> Schedule
+</strong> Kindness</p></li>
+</ul>
+
+
+<h1>[MS] Dando amor a los tests - Joaquin Engelmo</h1>
+
+<p>Cliente != Usuario
+[video] Robert C Martin - Clean Architecture and Design => Framework isolation
+[tip] to have a bad test base is worst than no having one
+Code coverage != test quality
+DRY even in tests: builders, mothers (mothers know about scenarios), [idea] mock providers / factories
+Look at other test doubles than mocks (mocks everywhere):
+* [ref] sociable unit tests: unit tests that not only talk with mocks (i.e dummies, etc.)
+* helper &amp; utilities do not have side effects => there&rsquo;s no need to mock
+* value objects do not have side effects => there&rsquo;s no need to mock
+* Use runners &amp; dependency injection
+Tests smells
+Name the tests properly:
+* the failure reporting is based on the test name
+* if the name is not descriptive enough I&rsquo;d need to check the code
+Improve readability:
+* AAA: Arrange / Act / Assert => separate these phases with a blank line
+* General vs specific setup: specific may be better some times in order to not lose context => better encapsulation
+* DSL => private method / no libraries are needed
+* One <em>logical</em> assert per test => create custom matchers / asserts</p>
+
+<p>Separate unit / integration tests: even in different folders</p>
+
+<p>[video] Alf Rehn (Åbo Akademi University) - How To Save Innovation From Itself</p>
+
+<h1>[CE] Desarrollando tus capacidades a través de la improvisación - Pablo Rodríguez</h1>
+
+<p>Improvise == to be ready for the unplanned
+Do not judge, do not judge yoourself
+There&rsquo;s no need to be original => create with what you have at hand
+Unblocking sentence: &ldquo;Yes, and also &hellip;&rdquo;
+Everybody has something to bring in
+[technique] the you can not say no game
+Follow the error edge => learn
+* an error means that you have gone too far
+* no error means that you haven&rsquo;t tried enough
+Team:
+* you shine when others shine => supporting each other
+* be yourself, because the others are already invented => bring in your own universe => something bigger will be created
+Listen:
+* you may realize that someone else has the same problem or knows how to solve it
+* open listening
+* it is important too, to make you understand
+Living the present:
+* accept the new paths [technique] the intervened story
+Simplify: Less is More => an specific action attracts attention
+<a href="I" title="heart">book</a> Improv Wisdom: Don&rsquo;t Prepare, Just Show Up – Patricia Ryan Madson
+<a href="I" title="heart">book</a> Improv-ing Agile Teams: Using Constraints to Unlock Creativity –  Paul Goddard</p>
+]]></content>
+  </entry>
+  
+</feed>
