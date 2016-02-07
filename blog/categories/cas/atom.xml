@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Cas | /trasteando/]]></title>
   <link href="http://rojoangel.github.io/blog/categories/cas/atom.xml" rel="self"/>
   <link href="http://rojoangel.github.io/"/>
-  <updated>2016-02-07T12:36:13+01:00</updated>
+  <updated>2016-02-07T12:59:53+01:00</updated>
   <id>http://rojoangel.github.io/</id>
   <author>
     <name><![CDATA[Angel Rojo]]></name>
@@ -20,35 +20,35 @@
     <id>http://rojoangel.github.io/blog/2016/02/07/cas-2015-notes</id>
     <content type="html"><![CDATA[<h1>[KY] Eugenio Moliní</h1>
 
-<p>[idea] comuniredes de troyanos
+<p>[idea] comuniredes de troyanos <br/>
 [ref] molini.es</p>
 
 <h1>[MS] Apertura - Carlos Ble</h1>
 
-<p>Don&rsquo;t ask for permission.
+<p>Don&rsquo;t ask for permission. <br/>
 Be the change you want to see.</p>
 
 <h1>[EP] Apertura - Aritz Suescun</h1>
 
-<p>[idea] The Design / Research Sprint
-Inception -> <a href="I" title="heart">book</a> The Agile Samurai
+<p>[idea] The Design / Research Sprint <br/>
+Inception -> <a href="I" title="heart">book</a> The Agile Samurai <br/>
 [videos] Product Discovery -Marty Cagan</p>
 
 <h1>[EP] El sindrome de Niggle, la orientacion a objetos y la familia de Juan Carlos I - Gerard Chiva</h1>
 
-<p>Design = Do the minimum to maximize impact
-Integrate changes &amp; failures in your product
+<p>Design = Do the minimum to maximize impact <br/>
+Integrate changes &amp; failures in your product <br/>
 [quote] &ldquo;Una obra no se completa nunca, solo te lleva al limited de tus posibilidades&rdquo;</p>
 
 <h1>[MS] Continuous Delivery in a legacy environment - Peter Marshall</h1>
 
-<p>It is important to get instant feedback from production
+<p>It is important to get instant feedback from production <br/>
 Use CI/CD to share a common vision
 1. Remove unnecessary human intervention
 2. Monitor / Quality gates / Steady state (know your steady state and alert when the system deviates from it)</p>
 
-<p>[ref] The Strangler Pattern - can be used to transform a monolith
-&lsquo;Devops&rsquo; and &lsquo;Tech Management&rsquo; are supporting teams at Planday company. Tech Mgmnr is kind of an architecture team. It is responsible of delivering the technical vision message.
+<p>[ref] The Strangler Pattern - can be used to transform a monolith <br/>
+&lsquo;Devops&rsquo; and &lsquo;Tech Management&rsquo; are supporting teams at Planday company. Tech Mgmnr is kind of an architecture team. It is responsible of delivering the technical vision message. <br/>
 [tip] Simplicity: one thing at a time.</p>
 
 <h1>[DP] Viaje a lo desconocido: de lo que no soy a lo que soy - David Roncero</h1>
@@ -74,7 +74,7 @@ Use CI/CD to share a common vision
 
 <h1>[EP] El Big Data también el ágil (o debería) - Juan Tomás García</h1>
 
-<p>[ref] Kappa Architecture - Jay Kreps: <a href="https://github.com/milinda/kappa-architecture.com">https://github.com/milinda/kappa-architecture.com</a>
+<p>[ref] Kappa Architecture - Jay Kreps: <a href="https://github.com/milinda/kappa-architecture.com">https://github.com/milinda/kappa-architecture.com</a> <br/>
 The importance of Monitoring &amp; Logging</p>
 
 <h1>[EP] Un paso más allá del pair programming: diseñadores empotrados - Poun Studio</h1>
@@ -89,105 +89,108 @@ The importance of Monitoring &amp; Logging</p>
 
 <h1>[EP] Design Thinking: the power to accept every challenge - Mariana Ivanova</h1>
 
-<p>The space: Freedom to explore &amp; try things
-The people: [ref] T-shape (broad soft skills &amp; deep expertise skills)
+<p>The space: Freedom to explore &amp; try things <br/>
+The people: [ref] T-shape (broad soft skills &amp; deep expertise skills) <br/>
 The approach: Problem space => Solution space | Diverge -> Converge -> Diverge -> Converge</p>
 
 <p>Steps:
-1. UNDERSTAND (The challenge)
+1. UNDERSTAND (The challenge) <br/>
 Goal: Creative reframing => One direction
-2. OBSERVATION (The trap)
-Goal: Gain empathy
-Techniques: Interview: 5 whys &amp; Debrief after the meeting
-<a href="I" title="heart">book</a> Interviewing Users: How to Uncover Compelling    Insights - Steve Portigal
+2. OBSERVATION (The trap) <br/>
+Goal: Gain empathy <br/>
+Techniques: Interview: 5 whys &amp; Debrief after the meeting <br/>
+<a href="I" title="heart">book</a> Interviewing Users: How to Uncover Compelling Insights - Steve Portigal
 3. DEFINE POINT OF VIEW (Agree on the problem to solve)
-Goal: Make sure you are working on the same problem
-Techniques:
-* Storytelling
-* Clustering
-* Create Persona
-* Define POV (= user + need + insight)
-Tips:
-* Do not design for everyone => one thing at a time
-* Do not confuse solutions with needs
+  * Goal: Make sure you are working on the same problem
+  * Techniques:
+    * Storytelling
+    * Clustering
+    * Create Persona
+    * Define POV (= user + need + insight)
+  * Tips:
+    * Do not design for everyone => one thing at a time
+    * Do not confuse solutions with needs <br/>
 &mdash;&mdash;&ndash; PROBLEM SPACE ^ - SOLUTION SPACE v &mdash;&mdash;&ndash;
 4. IDEATE
-Techniques:
-* Brainstorming:
-<strong> Go for quantity
-</strong> Go for wild ideas
-** Defer judgement
-* [idea] Reverse Brainstorming
-[ref]  The Power of Bad Ideas - Steve Portigal
-5. PROTOTYPE (Fail early &amp; often - because it is easy &amp; fast)
+  * Techniques:
+    * Brainstorming:
+      * Go for quantity
+      * Go for wild ideas
+      * Defer judgement
+  * [idea] Reverse Brainstorming
+  * [ref]  The Power of Bad Ideas - Steve Portigal
+5. PROTOTYPE (Fail early &amp; often - because it is easy &amp; fast) <br/>
 Techniques: [idea] dark horse prototype
-6. TEST
-Negative feedback is the best feedback
+6. TEST <br/>
+Negative feedback is the best feedback <br/>
 <a href="I" title="heart">book</a> The Mom Test: How to Talk to Customers and Learn If Your Business Is a Good Idea When Everyone Is Lying to You - Rob Fitzpatrick
-7. ITERATE
-From Test get back to previous steps
-Every failure is essential to learning
-Find the kid inside yourself (open mind)
-DO NOT FALL in love with the process
+7. ITERATE<br/>
+From Test get back to previous steps <br/>
+Every failure is essential to learning <br/>
+Find the kid inside yourself (open mind) <br/>
+DO NOT FALL in love with the process <br/>
 DO FALL in love with the problem</p>
 
 <h1>[KY] Leo Antoli</h1>
 
-<p>Correlation != Causation
-<a href="I" title="heart">book</a> Spurious Correlations - Tyler Vigen
-Cognitive biases
-The problem is software development usually is not a lack of resources, but a lack of knowledge
-[tip] Use better product monitoring &amp; exception handling
-[tip] small commints => to PRD continuously. If something broke:
+<p>Correlation != Causation <br/>
+<a href="I" title="heart">book</a> Spurious Correlations - Tyler Vigen <br/>
+Cognitive biases <br/>
+The problem is software development usually is not a lack of resources, but a lack of knowledge <br/>
+[tip] Use better product monitoring &amp; exception handling <br/>
+[tip] small commints => to PRD continuously. If something    broke:
 * easy to identify
-* easy to rollback
-[tool] screenhero.com
-Technical debt = conscious decision / you have to pay at some point != shitty code
-There&rsquo;s always tension between - and some equilibrium need to be found
+* easy to rollback</p>
+
+<p>[tool] screenhero.com <br/>
+Technical debt = conscious decision / you have to pay at some point != shitty code <br/>
+There&rsquo;s always tension between - and some equilibrium need to be found <br/>
 * build the right thing
 * build the thing right
-* build it fast
-[ref] The Standish Group - Chaos Report
-[tip] In meetings, first each one writes down its opinion in order to avoid being biased by the first person speaking
-[ref] No true scotsman fallacy
-Urgent vs Important
+* build it fast</p>
+
+<p>[ref] The Standish Group - Chaos Report <br/>
+[tip] In meetings, first each one writes down its opinion in order to avoid being biased by the first person speaking <br/>
+[ref] No true scotsman fallacy <br/>
+Urgent vs Important <br/>
 [ref] Anecdotal evidence</p>
 
 <h1>[KY] Rachel Davies</h1>
 
 <p>Spend your own time learning more:
-* get insights on bad parts
-Use people who are happy to try out things
+* get insights on bad parts</p>
+
+<p>Use people who are happy to try out things
 * test the idea
-* don&rsquo;t wait for everybody to accept the idea
-Build time for learning
-Share what you have learned
-Involve everyone
-Rachel works at unruly.co, here are some insights on what they are doing:
+* don&rsquo;t wait for everybody to accept the idea</p>
+
+<p>Build time for learning</p>
+
+<p>Share what you have learned</p>
+
+<p>Involve everyone</p>
+
+<p>Rachel works at unruly.co, here are some insights on what they are doing:
 * CD: from workstation to PRD:
-<strong> no STG
-</strong> Automated tests</p>
-
-<ul>
-<li><p>20% time learning &amp; researching:
-<strong> learning is a currency (truly, they have notes)
-</strong> swap teams / organizations
-<strong> learn from PRD: monitoring
-</strong> pair &amp; mob programming:
-<strong><em> challenging pieces
-</em></strong> whenever agreement is needed
-** strandcast: research news. recorded</p></li>
-<li><p>sharing learning: [idea] use a speaking token</p></li>
-<li><p>retrospectives</p></li>
-<li><p>sit with your business</p></li>
-<li><p>coding dojos</p></li>
-<li><p>swap organizations:
-<strong> learn from each other
-</strong> exchange with other teams &amp; organizations</p></li>
-<li><p>take turns => share responsibilities</p></li>
-<li><p>track &amp; reflect: i.e. track that learning is happening (i.e. in a calendar everyone shows what they&rsquo;ve done during the week: refactor / backlog work / learning / mob-pair programming</p></li>
-</ul>
-
+  * no STG
+  * Automated tests
+* 20% time learning &amp; researching:
+  * learning is a currency (truly, they have notes)
+  * swap teams / organizations
+  * learn from PRD: monitoring
+  * pair &amp; mob programming:
+    * challenging pieces
+    * whenever agreement is needed
+  * strandcast: research news. recorded
+* sharing learning: [idea] use a speaking token
+* retrospectives
+* sit with your business
+* coding dojos
+* swap organizations:
+  * learn from each other
+  * exchange with other teams &amp; organizations
+* take turns => share responsibilities
+* track &amp; reflect: i.e. track that learning is happening (i.e. in a calendar everyone shows what they&rsquo;ve done during the week: refactor / backlog work / learning / mob-pair programming</p>
 
 <p>[tip] invest time learning more => then write &amp; present (i.e. about something you learned in CAS)</p>
 
@@ -195,11 +198,11 @@ Rachel works at unruly.co, here are some insights on what they are doing:
 
 <h1>[TO] Gestion del cambio y hacking cultural - Angel Medinilla</h1>
 
-<p>[tool] <a href="http://www.myhappyforce.com/">http://www.myhappyforce.com/</a> - measures employees happiness
-[ref] <a href="http://www.improvement21.com/">http://www.improvement21.com/</a>
-<a href="I" title="heart">book</a> Switch: How to Change Things When Change Is Hard – Chip Heath &amp; Dan Heath
-<a href="I" title="heart">book</a> Predictably Irrational: The Hidden Forces That Shape Our Decisions – Dan Ariely
-[video] charlas de Emilio Duró
+<p>[tool] <a href="http://www.myhappyforce.com/">http://www.myhappyforce.com/</a> - measures employees happiness <br/>
+[ref] <a href="http://www.improvement21.com/">http://www.improvement21.com/</a> <br/>
+<a href="I" title="heart">book</a> Switch: How to Change Things When Change Is Hard – Chip Heath &amp; Dan Heath <br/>
+<a href="I" title="heart">book</a> Predictably Irrational: The Hidden Forces That Shape Our Decisions – Dan Ariely <br/>
+[video] charlas de Emilio Duró <br/>
 Herramientas para cambiar la cultura:
 * storytelling
 * small things, repeated 1k times
@@ -215,47 +218,62 @@ Herramientas para cambiar la cultura:
 
 <h1>[DP] Soy Persona (no soy recurso) - David Fernández</h1>
 
-<p><a href="I" title="heart">book</a> Work Rules!: Insights from Inside Google That Will Transform How You Live and Lead – Laszlo Bock
+<p><a href="I" title="heart">book</a> Work Rules!: Insights from Inside Google That Will Transform How You Live and Lead – Laszlo Bock <br/>
 Company owners should build people</p>
 
 <p>Confidence is bidirectional:</p>
 
 <ul>
-<li><p>Freedom => Self-managed teams
-<strong> heterogenity
-</strong> fellowship: pair / mob programming
-<strong> leadership: different people can lead in different aspects
-</strong> interconnection</p></li>
-<li><p>Motivation => Engaged employees
-<strong> Goals
-</strong> Development
-<strong> Communication => feedback
-</strong> Investment</p></li>
-<li><p>Happiness => Happy &amp; Productive people
-<strong> Smile
-</strong> Concilliation
-<strong> Schedule
-</strong> Kindness</p></li>
+<li>Freedom => Self-managed teams
+
+<ul>
+<li>heterogenity</li>
+<li>fellowship: pair / mob programming</li>
+<li>leadership: different people can lead in different aspects</li>
+<li>interconnection</li>
+</ul>
+</li>
+<li>Motivation => Engaged employees
+
+<ul>
+<li>Goals</li>
+<li>Development</li>
+<li>Communication => feedback</li>
+<li>Investment</li>
+</ul>
+</li>
+<li>Happiness => Happy &amp; Productive people
+
+<ul>
+<li>Smile</li>
+<li>Concilliation</li>
+<li>Schedule</li>
+<li>Kindness</li>
+</ul>
+</li>
 </ul>
 
 
 <h1>[MS] Dando amor a los tests - Joaquin Engelmo</h1>
 
-<p>Cliente != Usuario
-[video] Robert C Martin - Clean Architecture and Design => Framework isolation
+<p>Cliente != Usuario <br/>
+[video] Robert C Martin - Clean Architecture and Design => Framework isolation <br/>
 [tip] to have a bad test base is worst than no having one
-Code coverage != test quality
-DRY even in tests: builders, mothers (mothers know about scenarios), [idea] mock providers / factories
-Look at other test doubles than mocks (mocks everywhere):
+Code coverage != test quality <br/>
+DRY even in tests: builders, mothers (mothers know about scenarios), [idea] mock providers / factories</p>
+
+<p>Look at other test doubles than mocks (mocks everywhere):
 * [ref] sociable unit tests: unit tests that not only talk with mocks (i.e dummies, etc.)
 * helper &amp; utilities do not have side effects => there&rsquo;s no need to mock
 * value objects do not have side effects => there&rsquo;s no need to mock
-* Use runners &amp; dependency injection
-Tests smells
+* Use runners &amp; dependency injection</p>
+
+<p>Tests smells <br/>
 Name the tests properly:
 * the failure reporting is based on the test name
-* if the name is not descriptive enough I&rsquo;d need to check the code
-Improve readability:
+* if the name is not descriptive enough I&rsquo;d need to check the code</p>
+
+<p>Improve readability:
 * AAA: Arrange / Act / Assert => separate these phases with a blank line
 * General vs specific setup: specific may be better some times in order to not lose context => better encapsulation
 * DSL => private method / no libraries are needed
@@ -267,27 +285,34 @@ Improve readability:
 
 <h1>[CE] Desarrollando tus capacidades a través de la improvisación - Pablo Rodríguez</h1>
 
-<p>Improvise == to be ready for the unplanned
-Do not judge, do not judge yoourself
-There&rsquo;s no need to be original => create with what you have at hand
-Unblocking sentence: &ldquo;Yes, and also &hellip;&rdquo;
-Everybody has something to bring in
-[technique] the you can not say no game
-Follow the error edge => learn
+<p>Improvise == to be ready for the unplanned <br/>
+Do not judge, do not judge yoourself <br/>
+There&rsquo;s no need to be original => create with what you have at hand <br/>
+Unblocking sentence: &ldquo;Yes, and also &hellip;&rdquo; <br/>
+Everybody has something to bring in <br/>
+[technique] the you can not say no game</p>
+
+<p>Follow the error edge => learn
 * an error means that you have gone too far
-* no error means that you haven&rsquo;t tried enough
-Team:
+* no error means that you haven&rsquo;t tried enough</p>
+
+<p>Team:
 * you shine when others shine => supporting each other
-* be yourself, because the others are already invented => bring in your own universe => something bigger will be created
-Listen:
+* be yourself, because the others are already invented => bring in your own universe => something bigger will be created</p>
+
+<p>Listen:
 * you may realize that someone else has the same problem or knows how to solve it
 * open listening
-* it is important too, to make you understand
-Living the present:
-* accept the new paths [technique] the intervened story
-Simplify: Less is More => an specific action attracts attention
-<a href="I" title="heart">book</a> Improv Wisdom: Don&rsquo;t Prepare, Just Show Up – Patricia Ryan Madson
-<a href="I" title="heart">book</a> Improv-ing Agile Teams: Using Constraints to Unlock Creativity –  Paul Goddard</p>
+* it is important too, to make you understand</p>
+
+<p>Living the present:
+* accept the new paths [technique] the intervened story</p>
+
+<p>Simplify: Less is More => an specific action attracts attention</p>
+
+<p><a href="I" title="heart">book</a> Improv Wisdom: Don&rsquo;t Prepare, Just Show Up – Patricia Ryan Madson</p>
+
+<p><a href="I" title="heart">book</a> Improv-ing Agile Teams: Using Constraints to Unlock Creativity –  Paul Goddard</p>
 ]]></content>
   </entry>
   
